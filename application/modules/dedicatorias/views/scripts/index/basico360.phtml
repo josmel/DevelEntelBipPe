@@ -1,0 +1,145 @@
+<div data-role="content"> 
+    <div class='inset'>
+        <?php $this->getMesseger(); ?>
+        <br>
+        <div> 
+            <img width="100%"   src="<?php echo DINAMIC_URL ?>dedicatorias/banner_dedicatorias.gif">
+        </div>
+
+        <h3 class="mensajeGenerico" style="font-weight: 400">
+             Destacadas_</h3>
+
+        <div class="ui-grid-b" >
+            <div class="ui-block-a" style="padding:0 2px 0 0;">
+                <div class="destacado">
+                    <a style="color:black;" href="/pe/dedicatorias/confirmar-dedicatoria?catalogo=<?= $this->SoapMusica[0]->catalogo ?>">
+                            <?php
+                            $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/dedicatorias/basico360/91X91/' . $this->SoapMusica[0]->catalogo . '.jpg';
+                            if (file_exists($nombre_fichero)) {
+                                ?>
+                                <img width="100%"  
+                                    src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/91X91/<?= $this->SoapMusica[0]->catalogo?>.jpg" ><?php } else {
+                                ?>
+                                <img width="100%" src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/91X91/default.gif" border="0" />
+
+                            <?php }
+                            ?>
+                        <h2 ><?= $this->SoapMusica[0]->tema ?></h2>
+                        <p><?= $this->SoapMusica[0]->artista ?></p>
+                        <p class="ui-li-aside"><strong><i class="fa fa-shopping-cart"></i>
+                            </strong></p>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-block-b" style="padding:0 2px 0 2px">
+                <div class="destacado">
+                    <a style="color:black" href="/pe/dedicatorias/confirmar-dedicatoria?catalogo=<?= $this->SoapMusica[1]->catalogo ?>">
+ <?php
+                            $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/dedicatorias/basico360/91X91/' . $this->SoapMusica[1]->catalogo . '.jpg';
+                            if (file_exists($nombre_fichero)) {
+                                ?>
+                                <img width="100%"  
+                                    src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/91X91/<?= $this->SoapMusica[1]->catalogo?>.jpg" ><?php } else {
+                                ?>
+                                <img width="100%" src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/91X91/default.gif" border="0" />
+
+                            <?php }
+                            ?>                        <h2 ><?= $this->SoapMusica[1]->tema ?></h2>
+                        <p><?= $this->SoapMusica[1]->artista ?></p>
+                        <p class="ui-li-aside"><strong><i class="fa fa-shopping-cart"></i>
+                            </strong></p>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-block-c" style="padding:0 0 0 2px">
+                <div class="destacado">
+                    <a style="color:black" href="/pe/dedicatorias/confirmar-dedicatoria?catalogo=<?= $this->SoapMusica[2]->catalogo ?>">
+                        <?php
+                            $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/dedicatorias/basico360/91X91/' . $this->SoapMusica[2]->catalogo . '.jpg';
+                            if (file_exists($nombre_fichero)) {
+                                ?>
+                                <img width="100%"  
+                                    src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/91X91/<?= $this->SoapMusica[2]->catalogo?>.jpg" ><?php } else {
+                                ?>
+                                <img width="100%" src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/91X91/default.gif" border="0" />
+                            <?php }
+                            ?>  
+                        <h2 ><?= $this->SoapMusica[2]->tema ?></h2>
+                        <p ><?= $this->SoapMusica[2]->artista ?></p>
+                        <p class="ui-li-aside"><strong><i class="fa fa-shopping-cart"></i>
+                            </strong></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <h3 class="mensajeGenerico" style="font-weight: 400">
+             Top 10_</h3>
+        <ul data-role="listview" data-inset="false" data-icon="false" data-divider-theme="b" >
+            <?php
+            $i = 0;
+            foreach ($this->SoapMusica as $item):
+                $i++;
+                if ($i > 3 && $i <= 14) {
+                    ?>
+                    <li>
+                        <a href="/pe/dedicatorias/confirmar-dedicatoria?catalogo=<?= $item->catalogo ?>">
+                            <?php
+                            $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/dedicatorias/basico360/91X91/' . $item->catalogo . '.jpg';
+                            if (file_exists($nombre_fichero)) {
+                                ?>
+                                <img 
+                                    src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/91X91/<?= $item->catalogo ?>.jpg" ><?php } else {
+                                ?>
+                                <img src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/91X91/default.gif" border="0" />
+
+                            <?php }
+                            ?>
+                                                            <!--<img src="<?php echo STATIC_URL ?>css/jqueryMobile/artista/<?= $i - 3 ?>.jpg"  border="0" />-->
+                            <h2><?= strtoupper($item->tema) ?></h2>
+                            <p><?= $item->artista ?></p>
+                            <p class="ui-li-aside" ><strong style="color: #FF6702"><i class="fa fa-shopping-cart"></i>
+                                </strong></p>
+                        </a>
+                    </li>
+                        <?php
+                    }
+                endforeach;
+                ?> 
+        </ul>
+        <form data-ajax="false" action="/pe/dedicatorias/confirmar-desuscripcion"  method="get" >
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <button type="submit" style="color:white" >[&nbsp;&nbsp;Desuscribirse_</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+<style>
+    .destacado{background-color: #FFFFFF;font-size: 0.5em
+    }
+    .destacado h2{display: block;
+                  font-size: 1.2em;
+                  font-weight: 700;
+                  margin: 0.45em 0;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  white-space: nowrap}
+    .destacado p{font-weight: 400}
+    .destacado p strong{color: #FF6702;}
+
+    .inset h2{
+        color: #0053A4;
+    }
+
+    .ui-page-theme-b .ui-btn:hover, html .ui-bar-b .ui-btn:hover, html .ui-page-theme-b .ui-btn:hover, html body .ui-group-theme-b .ui-btn:hover, html head+body .ui-btn.ui-btn-b:hover,
+    .ui-page-theme-b .ui-btn:active, html .ui-bar-b .ui-btn:active, html .ui-page-theme-b .ui-btn:active, html body .ui-group-theme-b .ui-btn:active, html head+body .ui-btn.ui-btn-b:active {
+        color: white;
+        background-color: #0154A0;
+    }
+
+    .ui-listview:hover>li h2{
+        color: white;
+    }
+
+</style>

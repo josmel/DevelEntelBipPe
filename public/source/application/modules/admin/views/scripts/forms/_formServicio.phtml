@@ -1,0 +1,49 @@
+<h3 class="admin-title"><?php echo $this->element->getView()->titulo ?></h3>
+<?php $this->getMesseger(); ?>
+<div class="ctn-back">
+    <a title="Volver al listado de Servicios" href="/admin/servicio">« Volver al listado de Servicios</a>
+</div>
+<div class="frm-panel">
+
+    <form id="frm-article" action="<?php echo $this->element->getView()->action ?>" 
+          method="post" Enctype="multipart/form-data">
+
+        <div class="control-group">
+            <label class="control-label" for="descripcion">Descripción:</label>
+            <div class="controls">
+                <?php echo $this->element->descripcion; ?>
+                <?php echo $this->element->idservicio; ?>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="avanzado">Imagen:</label>
+            <div class="controls">
+                <?php echo $this->element->avanzado; ?>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="Enlace">Enlace:</label>
+            <div class="controls">
+                <?php echo $this->element->url; ?>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="Alt">Alt:</label>
+            <div class="controls">
+                <?php echo $this->element->alt; ?>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="estado">Estado:</label>
+            <div class="controls">
+                <?php echo $this->element->estado; ?>
+            </div>
+        </div>
+
+        <div class="control-group last">
+            <div class="control">
+                <button class="btn-admin" type="submit"><?php echo $this->element->getView()->submit ?></button>
+            </div>
+        </div>
+    </form>
+</div>

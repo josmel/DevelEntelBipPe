@@ -1,0 +1,37 @@
+<div data-role="content">   
+    <br>
+    <div class='inset'>
+        <div> 
+            <img width="100%"   src="<?php echo STATIC_URL ?>css/jqueryMobile/banner_dedicatorias_nextel2.gif">
+        </div>
+        <h3 class="mensajeGenerico" style="padding: 8px;text-align: justify;font-weight: 300">
+            Suscribete a DEDICATORIAS. Costo semanal  S/.5.00 inc. IGV. </h3>
+                   <h3 class="mensajeGenerico" style="padding: 8px;text-align: justify;font-weight: 300">
+           ¿Aceptas suscribirte a DEDICATORIAS?</h3>
+    </div>
+    <!----------------TONOS------------------------------------->
+    <?php if ($this->perfil == 1) {
+        ?>
+        <td class="artist" style="background-color: orange" >
+            <div class="artist-text">
+                <div class="title-img">
+                    <a class="text-title" style="background-color: orange;color: white;font-size:18px"
+                       href="">ACEPTAR
+                    </a>
+                </div>
+            </div>
+        </td>
+    <?php } else { ?>
+        <form data-ajax="false" action="<?php echo $this->action; ?>"  method="post" Enctype="multipart/form-data">
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <button style="color:white" type="submit" >[&nbsp;&nbsp;Acepto Suscribirme_</button>
+                    <!--data-inline='true'-->
+                    <div id="moopio">
+                        <a href='<?php echo $this->entelEntretenimiento ?>' style="color:white"  data-role='button' >[&nbsp;&nbsp;Cancelar_</a>
+                    </div>
+                </li>
+            </ul>
+        </form>
+    <?php } ?>
+</div>

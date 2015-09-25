@@ -1,0 +1,154 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link href="<?php echo STATIC_URL ?>css/fulltracks/style.css"
+      rel="stylesheet" />
+<link href="<?php echo STATIC_URL ?>css/fulltracks/basico360.css"
+      rel="stylesheet" />
+<script type="text/javascript" src="<?php echo STATIC_URL ?>js/modules/fulltracks/jquery-latest.js"></script>
+<style>.ir-arriba {
+        display:none;
+        padding:10px;
+        background:#024959;
+        font-size:15px;
+        color:#fff;
+        cursor:pointer;
+        position: fixed;
+        font-weight:bold;
+        bottom:10px;
+        right:10px;
+    }</style>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $('.ir-arriba').click(function () {
+            $('body, html').animate({
+                scrollTop: '0px'
+            }, 300);
+        });
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 0) {
+                $('.ir-arriba').slideDown(300);
+            } else {
+                $('.ir-arriba').slideUp(300);
+            }
+        });
+
+    });</script>
+<script type="text/javascript" src="<?php echo STATIC_URL ?>js/modules/fulltracks/jquery.js"></script>
+<script type="text/javascript" src="<?php echo STATIC_URL ?>js/modules/fulltracks/underscore-min.js"></script>
+<script type="text/javascript" src="<?php echo STATIC_URL ?>js/modules/fulltracks/backbone-min.js"></script>
+<script type="text/javascript" src="<?php echo STATIC_URL ?>js/modules/fulltracks/scroll-model.js"></script>
+<script type="text/javascript" src="<?php echo STATIC_URL ?>js/modules/fulltracks/scroll-view.js"></script>
+<div id="prueba_master" class="wlp-bighorn-book">
+    <div class="wlp-bighorn-book-content">
+        <div class="wlp-bighorn-layout wlp-bighorn-layout-flow">
+            <div class="wlp-bighorn-layout-cell wlp-bighorn-layout-flow-horizontal wlp-bighorn-layout-flow-first" style="width: 100%">
+                <?php $this->getMesseger(); ?>
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artist">
+                            <?php
+                            $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/fulltracks/basico360/musica/' . $this->SoapMusica[0]->catalogo . '.jpg';
+                            if (file_exists($nombre_fichero)) {
+                                ?>
+                                <img class="img-icono"
+                                     src="<?php echo DINAMIC_URL ?>fulltracks/basico360/musica/<?= $this->SoapMusica[0]->catalogo ?>.jpg" ><?php } else {
+                                ?>
+                                <img src="<?php echo DINAMIC_URL ?>fulltracks/basico360/musica/default.gif" width="64" height="47" border="0" />
+
+                            <?php }
+                            ?>
+                        </td>
+                        <td class="artistaDestacado" colspan=2>
+                            <div class="artistaDestacadoDetalle">
+                                <span><?= strtoupper($this->SoapMusica[0]->tema) ?></span>
+                                <form action="/pe/fulltracks/confirmar-descarga"  method="post" Enctype="multipart/form-data">
+                                    <input type="hidden" name="catalogo" value="<?= $this->SoapMusica[0]->catalogo ?>">
+                                    <input type="hidden" name="artista" value="<?= $this->SoapMusica[0]->artista ?>">
+                                    <input type="hidden" name="tema" value="<?= $this->SoapMusica[0]->tema ?>">
+                                    <br>
+                                    <p><button style="border:none;background-color: transparent !important; color:   #0073ae;font-size: 4vw;
+                                               margin-top:0;text-decoration:none;" type="submit"><?= $this->SoapMusica[0]->artista ?>
+                                        </button></p>
+                                </form>  
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="artist" colspan=3 >
+                            <div class="artist-text">
+
+                                <div class="title-img">
+                                    <a class="text-title" style="color: black;font-size:12px"
+                                       href="">Bienvenido desde hoy podrás descargar toda la música que puedas. Costo: S/1.65 diario. Para cancelar envía un SMS con la palabra SALIR al 4556 
+                                    </a>
+                                    <?php $this->getMesseger(); ?>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <!----------------TONOS------------------------------------->
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artist"  colspan=2 style="background-color: orange">
+                            <div class="artist-text">
+                                <div class="title-img">
+                                    <a class="text-title" style="color: white;font-size:18px"
+                                       href="#">TOP 10
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <span class="ir-arriba icon-arrow-up2">∧</span>
+                <div class="inner">
+                    <script>
+    $(function () {
+        var options = {
+            columnsSelector: ".column",
+            itemTemplateSelector: "#podTemplate",
+            itemClasses: "pod",
+            dataUrl: "/fulltracks/proceso/json"
+        };
+        var scrollModel = new ScrollModel({options: options});
+        new ScrollView({el: $("#infiniteScrollList"), model: scrollModel, options: options});
+
+    });
+                    </script>
+                    <div id="infiniteScrollList">
+                        <div class="column column-first"></div>
+                        <div class="column column-second"></div>
+                        <div class="column column-third"></div>
+                        <div class="btn btn-more">Cargando mas canciones</div>
+                        <div class="state no-more-state">No hay mas canciones</div>
+                        <div class="state load-state">Cargando...</div>
+                        <script type="text/template" id="podTemplate">
+                                    <div class="id"><%= album %>
+                                                </div>
+                                    <div class="img">
+                                    <?php
+                                    $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/fulltracks/basico360/musica/<%= catalogo %>.jpg';
+                                    if (file_exists($nombre_fichero)) {
+                                        ?>
+                                                        <img src="<?php echo DINAMIC_URL ?>fulltracks/basico360/musica/<%= catalogo %>.jpg"  height="47" border="0" />
+                                    <?php } else {
+                                        ?>
+                                                        <img src="<?php echo DINAMIC_URL ?>fulltracks/basico360/musica/default.gif" width="64" height="47" border="0" />
+
+                                    <?php }
+                                    ?>                              
+                                    </div>
+                                    <h3><%= tema %></h3>
+                                    <div class="desc"><%= artista %></div>
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

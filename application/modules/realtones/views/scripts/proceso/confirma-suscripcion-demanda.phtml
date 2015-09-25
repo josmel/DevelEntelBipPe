@@ -1,0 +1,39 @@
+<div id="prueba_master" class="wlp-bighorn-book">
+    <div class="wlp-bighorn-book-content">
+        <div class="wlp-bighorn-layout wlp-bighorn-layout-flow">
+            <div class="wlp-bighorn-layout-cell wlp-bighorn-layout-flow-horizontal wlp-bighorn-layout-flow-first" style="width: 100%">
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artist"  colspan=2 >
+                            <div class="artist-text">
+                                <div class="title-img">
+                                    <a class="text-title" style="color: black;font-size:18px"
+                                       href="#"><?php $this->getMesseger();?>
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <!----------------TONOS------------------------------------->
+                <table class="artist-photo">
+                    <tr>
+                <tr>
+                        <td class="artist"  colspan=2 style="background-color: orange">
+                            <form action="<?php echo $this->action; ?>"  method="post" Enctype="multipart/form-data">
+                                <input type="hidden" name="numero" value="<?php echo $this->numero; ?>">
+                                <div class="artist-text">
+                                    <div class="title-img">
+                                        <button style="border:none;background-color: orange;color: white;font-size:18px" type="submit">SIGUIENTE
+                                         </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

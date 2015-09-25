@@ -1,0 +1,34 @@
+<h3 class="mensajeGenerico">
+    Datos de envío_</h3> 
+<div data-role="content"> 
+    <div class='inset'>
+        <br>
+        <ul data-role="listview" data-inset="false" data-icon="false" data-divider-theme="b">
+            <li style="background-color: white;border: 1px solid rgba(0, 0, 0, 0.1);">
+                    <img src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/musica/<?= $this->imagen ?>"  />
+                    <h2><?= strtoupper($this->tema) ?></h2>
+                    <p><?= strtoupper($this->artista) ?></p>
+                    <p class="ui-li-aside"><strong style="color: #FF6702;"><?= $this->precio ?></strong></p>
+            </li>
+        </ul>
+        <ul data-nativedroid-plugin='cards' style="background-color: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);color:black ">
+            <li data-cards-type='text' style="list-style:none">
+                <h2>Numero de destino</h2>
+                <p><?php echo $this->numeroDestino ?></p>
+                <h2>Mensaje</h2>
+                <p><?php echo $this->dedicatoria ?></p>
+
+            </li>
+        </ul>
+    </div>
+    <form data-ajax="false" action="<?php echo $this->action; ?>"  method="post" Enctype="multipart/form-data">
+        <ul data-role="listview" data-inset="true">
+            <li>
+                <input type="hidden" value="2"  name="mensaje"/>
+                <button style="color:white" type="submit" >[&nbsp;&nbsp;Enviar</button>
+            </li>
+        </ul>
+    </form>
+</div>

@@ -1,0 +1,101 @@
+<div id="prueba_master" class="wlp-bighorn-book">
+    <div class="wlp-bighorn-book-content">
+        <div class="wlp-bighorn-layout wlp-bighorn-layout-flow">
+            <div class="wlp-bighorn-layout-cell wlp-bighorn-layout-flow-horizontal wlp-bighorn-layout-flow-first" style="width: 100%">
+                <!----------------BANNER DE DEDICATORIA------------------------------------->
+
+                <a  id="cabecera_paso1" class="paso primero seleccionado" href="/pe/realtones/mis-compras">
+                    <span style="font-weight:bold;float: right;border:none;background-color: transparent !important; color:   #0073ae;font-size: 4vw;
+                          margin-top:0;text-decoration:none;font-size: 4vw; margin-right: 10px">VER MIS COMPRAS</span>
+                </a>
+                <br>
+                <?php $this->getMesseger(); ?>
+                <table class="artist-photo">
+                    <tr>
+<!--                        <td class="artist">
+                            <?php
+                            $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/realtones/basico360/tonos/' . $this->SoapTonos[0]->catalogo . '.jpg';
+                            if (file_exists($nombre_fichero)) {
+                                ?>
+                                <img class="img-icono"
+                                     src="<?php echo DINAMIC_URL ?>realtones/basico360/tonos/<?= $this->SoapTonos[0]->catalogo ?>.jpg" ><?php } else {
+                                ?>
+                                <img src="<?php echo DINAMIC_URL ?>realtones/basico360/tonos/default.gif" width="64" height="47" border="0" />
+
+                            <?php }
+                            ?>  
+                        </td>-->
+                        <td class="artistaDestacado" colspan=2>
+                            <div class="artistaDestacadoDetalle">
+                                <a href="/pe/realtones/confirmar-descarga?catalogo=<?= $this->SoapTonos[0]->catalogo ?>"><span><?= strtoupper($this->SoapTonos[0]->tema) ?></span><p style="color: blue"><?= $this->SoapTonos[0]->artista ?></p></a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="artist" colspan=3 >
+                            <div class="artist-text">
+                                <div class="title-img">
+                                    <a class="text-title" style="font-size:10px"
+                                       href="">Descarga los mejores TONOS en tu celular y personaliza tus llamadas. Costo semanal: S/.4.90  Incluye 1 TONO
+                                        . Costo adicional por más descargas dentro de la semana: s/.2.50 .
+                                        Para Cancelar envía SALIR al 4556 .
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <!----------------TONOS------------------------------------->
+
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artist"  colspan=2 style="background-color: orange">
+                            <div class="artist-text">
+                                <div class="title-img">
+                                    <a class="text-title" style="color: white;font-size:18px"
+                                       href="#">TONOS
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <?php
+                    $i = 0;
+                    foreach ($this->SoapTonos as $item):
+                        $i++;
+                        if ($i > 1 && $i <= 11) {
+                            ?>
+                            <tr>
+                                <td class="artist" >
+                                    <div class="artist-text" style="text-align:left;">
+                                        <div class="title-img">
+                                            <a class="text-title"
+                                               href="/pe/realtones/confirmar-descarga?catalogo=<?= $item->catalogo ?>"><?= strtoupper($item->tema) ?>
+                                            </a>
+                                        </div>
+                                    </div> 
+                                    <!--                                    
+                                                                        <div class="artist-text" style="text-align:left;">
+                                                                            <div class="title-img">
+                                                                                <form action="/pe/realtones/confirmar-descarga"  method="post" Enctype="multipart/form-data">
+                                                                                    <input type="hidden" name="catalogo" value="<?= $item->catalogo ?>">
+                                                                                    <input type="hidden" name="artista" value="<?= $item->artista ?>">
+                                                                                    <input type="hidden" name="tema" value="<?= $item->tema ?>">
+                                                                                    <br>
+                                                                                    <span><button style="border:none;background-color: transparent !important;color: black;font-size:12px" type="submit"><?= strtoupper($item->tema) ?>
+                                                                                        </button></span>
+                                                                                </form>
+                                                                            </div>
+                                                                        </div>-->
+                                </td>
+                            </tr>
+                            <?php
+                        }
+                    endforeach;
+                    ?> 
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

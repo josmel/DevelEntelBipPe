@@ -1,0 +1,58 @@
+<h3 class="mensajeGenerico">
+             Resumen de la dedicatoria_</h3>
+<div data-role="content"> 
+    <br>
+    <div class='inset'>
+        <ul data-role="listview" data-inset="false" data-icon="false" data-divider-theme="c" >
+            <li style="background-color: white;border: 1px solid rgba(0, 0, 0, 0.1);">
+                    <img src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/musica/<?= $this->imagen ?>"  />
+                    <h2><?= strtoupper($this->tema) ?></h2>
+                    <p><?= strtoupper($this->artista) ?></p>
+                      <p class="ui-li-aside"><strong style="color: #FF6702;"><?= $this->precio ?></strong></p>
+               
+            </li>
+        </ul>
+        <ul data-nativedroid-plugin='cards' style="background-color: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);color:black ">
+            <li data-cards-type='text' style="list-style:none">
+                <h2>Numero de destino</h2>
+                <p><?php echo $this->numeroDestino ?></p>
+                <h2>Mensaje</h2>
+                <p><?php echo $this->dedicatoria ?></p>
+            </li>
+        </ul>
+         <p class="mensajeDescripcion" style="font-weight: 400;">
+        <strong style="font-weight:500;font-size: 0.9em;color:#FF6702">[</strong>&nbsp;&nbsp;Comprar la dedicatoria?_</p>
+    
+<!--        <div class='message info'>
+            <p style="color: white">Comprar la dedicatoria?</p>
+        </div>-->
+    </div>
+    <form data-ajax="false" action="<?php echo $this->action; ?>"  method="post" Enctype="multipart/form-data">
+        <ul data-role="listview" data-inset="true">
+<!--            <li>
+                <button type="submit" style="background-color: #FF6702;color:white" ><i class='lIcon fa fa-check'></i>Aceptar</button>
+                <div>
+                    <a href='#' data-rel='back' style="background-color: #FF6702;color:white" data-role='button' ><i class='lIcon fa fa-times'></i>Editar</a>
+                </div>
+            </li>-->
+<input  type="hidden" value="<?php echo $this->token ?>" name="token">
+            <li>
+                <button type="submit" style="color:white" >[&nbsp;&nbsp;Pagar_</button>
+                <div id="moopio">
+                    <a href='#' data-rel='back' style="color:white" data-role='button' >[&nbsp;&nbsp;Editar_</a>
+                </div>
+            </li>
+        </ul>
+    </form>
+</div>
+
+<style>
+    listview{
+        background-color: white;
+    }
+    
+
+
+</style>

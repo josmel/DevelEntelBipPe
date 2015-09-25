@@ -1,0 +1,349 @@
+.barra{
+    position: relative;
+    background-color: #0073AE;
+    width: 100%;
+    height: 41px;
+    text-align: center;
+}
+.back{
+    background:  left top no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 41px;
+    height: 41px;
+}
+.logo{
+    position: absolute;
+    width: 44px;
+    height: 41px;
+    right: 0;
+    top: 0;
+}
+.titulo-barra{
+    padding-top: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #FFF;
+}
+/**/
+.conte-ppl{
+    padding: 20px 10px 30px;
+}
+.ti-ppal{
+    padding-bottom: 30px;
+}
+.ti-ppal h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 16px;
+    color: #0073ae;
+}
+.conte-tabs{}
+.conte-tabs .tabs{
+    background-color: #F2F2F2;
+    width: 49.5%;   
+    height: 27px;
+    padding-top: 12px;
+    margin-right: 2px;
+    float: left;
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 13px;
+    color: #0073ae;
+   
+    cursor: pointer;
+}.conte-tabs .tabs.activo{
+    background-color: #0073AE;
+    color: #FFF;
+}
+.conte-tabs .tabs.pad-dos-linea{
+    padding-top: 7px;
+    height: 32px;
+}
+.info_tab{padding-top: 10px;display: none}
+.info_tab.selected{display: block}
+.info_tab h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 13px;
+    color: #0073ae;
+}
+/**/
+.caja-btn-promo{
+    padding: 9px 0;    
+    width: 300px;
+    height: 109px;
+    margin: 0 auto 0;
+}
+.caja-btn-promo .btn-dscto{
+    background:  left top no-repeat transparent;
+    float: left;
+    width: 145px;
+    height: 109px;
+    margin-right: 10px;
+}/*.caja-btn-promo .btn-dscto:hover{background: url(../img/sprite-btn.png) left bottom no-repeat transparent;}*/
+.caja-btn-promo .btn-dscto.check{background:  left bottom no-repeat transparent;}
+.caja-btn-promo .btn-dscto a{
+    display: block;
+    
+    width: 145px;
+    height: 109px;
+    text-decoration: none !important;
+}
+.caja-btn-promo .btn-dscto a span{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+.caja-btn-promo .btn-dscto a span.txt-1{
+    display: block;
+    letter-spacing: -1px;
+    height: 25px;
+    padding: 8px 0 3px 11px;
+}.caja-btn-promo .btn-dscto a span.txt-1 .part-1{
+    font-size: 13px;
+    display: block;
+    float: left;
+    padding-top: 7px;
+}
+.caja-btn-promo .btn-dscto a span.txt-1 .part-2{
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: bold;
+    display: block;
+    float: left;
+}
+.caja-btn-promo .btn-dscto a span.txt-1 .part-3{
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    padding-top: 7px;
+}
+.caja-btn-promo .btn-dscto a span.txt-2{
+    display: block;
+    font-size: 11px;
+    line-height: 12px;
+    letter-spacing: 0px;
+    height: 31px;
+    padding: 0 0 3px 11px;
+}
+
+.caja-btn-promo .btn-dscto a span.txt-3{
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0px;
+    height: 24px;
+    padding: 14px 0 3px 52px;
+}
+/**/
+.tabla_info{width: 100%}
+.tabla_info table{width: 100%}
+.tabla_info table thead tr{
+    
+    background-color: #0073ae;
+    height: 46px;
+    border-bottom: 1px solid #FFF;
+}.tabla_info table thead tr th{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+}
+.tabla_info table tbody tr{
+    height: 44px;
+    border-bottom: 1px solid #FFF;
+}.tabla_info table tbody tr.osc{
+    background-color: #E6E6E6;
+}.tabla_info table tbody tr.claro{
+    background-color: #F2F2F2;
+}
+.tabla_info table tbody tr td{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+}.tabla_info table tbody tr td span.txtGris{    
+    font-size: 10px;
+    color: #666666;
+}.tabla_info table tbody tr td span.txtGris.pqn{    
+    font-size: 9px;
+    line-height: 10px;
+    color: #666666;
+}.tabla_info table tbody tr td span.txtNaranjo{
+    color: #ff6702;
+}
+.tabla_info table tbody tr td.first{
+    text-align: left;
+    padding-left: 5%;
+    letter-spacing: -1px;
+}
+a.btnNaranjo{
+    display: block;
+    width: 64px;
+    height: 28px;
+    margin: 0 auto;
+    background-color: #FF6702;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    line-height: 28px;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+/**/
+#acordionAzulFull{
+    padding: 10px 0 11px;
+}
+#acordionAzulFull .stretch{
+    display: block;
+    width: 95%;
+    padding-left: 5%;
+    padding-top: 12px;
+    background:  right bottom no-repeat #0074B2;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+    height: 24px;
+    margin-bottom: 5px;
+}#acordionAzulFull .stretch.ui-state-active{
+    background:  right top no-repeat #0074B2;
+}
+#acordionAzulFull .stretcher{padding-bottom: 17px;}
+/**/
+.ti-4g{
+    width: 290px;
+    margin: 0 auto 10px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+    color: #0073ae;
+    text-align: center;  
+}.ti-4g span{
+    display: block;
+    float: left;
+    padding-top: 7px
+}
+/**/
+.video{
+    text-align: center;
+    padding-bottom: 14px;
+}
+.video a{text-decoration: none;}
+/**/
+.txtSignoM{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: bold;
+    color: #666666;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}.txtSignoM span{color: #ff6702;}
+
+
+
+
+.acordionGrisFull a span{
+	background-repeat: no-repeat;
+	background-position: 100%;
+	display: block;
+	height: 60px;
+	width: 42px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+#acordionGrisFull .stretcha{
+    float :left;
+    display: block;
+    width: 26%;
+    padding-left:5%;
+    padding-top: 18px;
+    background:  right bottom no-repeat #E7E7E7;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0073ae;
+    text-decoration: none;
+    height: 32px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+}
+
+
+
+
+
+/**/
+#acordionAzulFull, #acordionGrisCC{
+    padding: 10px 0 11px;
+}
+#acordionGrisFull .stretch{
+    display: block;
+    width: 95%;
+    padding-left: 5%;
+    padding-top: 18px;
+    background:  right bottom no-repeat #E7E7E7;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0073ae;
+    text-decoration: none;
+    height: 32px;
+    margin-bottom: 2px;
+}#acordionGrisFull .stretch.ui-state-active{
+    background:  right top no-repeat #E7E7E7;
+}#acordionGrisFull .stretcher, #acordionGrisCC .stretcher{padding: 20px 0;}
+/**/
+h2.ast{
+    background:  0px 2px no-repeat;
+    padding-left: 14px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: bold;
+    color: #0073ae;
+}
+h2.sin-ast{    
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: bold;
+    color: #0073ae;
+}
+.stretcher p{
+    padding-left: 14px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: normal;
+    color: #666;
+    margin-top: 7px;
+}
+

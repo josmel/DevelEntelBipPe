@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <?= $this->headTitle() ?>
+        <?= $this->headMeta() ?>
+        <link rel="shortcut icon" href="<?php echo STATIC_URL ?>preview/favicon.ico" />
+        <!-- css -->
+        <link href="<?php echo STATIC_URL ?>preview/css/general.css" rel="stylesheet" />
+        <link href="<?php echo STATIC_URL ?>preview/css/avanzado.css" rel="stylesheet" />
+        <link href="<?php echo STATIC_URL ?>preview/css/slider.css" rel="stylesheet" />
+        <script type="text/javascript" src="<?php echo STATIC_URL ?>preview/js/jquery.min.js"></script>
+        <script type="text/javascript" src="<?php echo STATIC_URL ?>preview/js/slider.js"></script>
+        <script type="text/javascript" charset="utf-8">$(window).load(function() {
+                $('.flexslider').flexslider({controlsContainer: '.flex-container'});
+            });</script>
+    </head>
+    <body>
+        <div class="page">
+            <?= $this->layout()->content ?>
+            <div style="clear: both;"></div>
+            <div class="footer">
+                <a class="legal" href="/preview/servicios/legal">Legal</a>
+            </div>
+        </div>
+    </body>
+</html>

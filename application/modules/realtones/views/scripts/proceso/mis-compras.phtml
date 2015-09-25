@@ -1,0 +1,193 @@
+<div id="prueba_master" class="wlp-bighorn-book">
+    <div class="wlp-bighorn-book-content">
+        <div class="wlp-bighorn-layout wlp-bighorn-layout-flow">
+            <div class="wlp-bighorn-layout-cell wlp-bighorn-layout-flow-horizontal wlp-bighorn-layout-flow-first" style="width: 100%">
+
+                <!----------------TONOS------------------------------------->
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artist"  colspan=2 style="background-color: orange">
+                            <div class="artist-text">
+                                <div class="title-img">
+                                    <a class="text-title" style="font-weight:bold;color: white;font-size:18px"
+                                       href="#">MIS COMPRAS
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="artist" >
+                            <div class="artist-text">
+                                <div class="title-img">
+                                    <a class="text-title" style="font-size:10px"
+                                       href="">
+                                           <?php
+                                           if ($this->cantidad >= 1) {
+                                               ?>
+                                            Desde aquí podrás consultar tus compras realizadas y descargarte los tonos.
+                                            <?php
+                                        } else {
+                                            ?>
+                                            Usted no tiene compras realizadas.
+                                            <?php
+                                        }
+                                        ?>
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr> 
+                </table>
+                <?php
+                if ($this->perfil > 1) {
+                    if ($this->cantidad == 1) {
+                        ?>
+                        <div class="menuPrincipal clearfix"style="background: none repeat scroll 0 0 #EBEBEB;">
+                            <div id="medium">
+                                <span class="puesto"><p>1</p></span>
+                                <div class="menu" >
+                                    <?php
+                                    $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/realtones/basico360/tonos/' . $this->compras->imagen;
+                                    if (file_exists($nombre_fichero)) {
+                                        ?>
+                                        <img class=""
+                                             src="<?php echo DINAMIC_URL ?>realtones/basico360/tonos/<?= $this->compras->imagen ?>"><?php } else {
+                                        ?>
+                                        <img src="<?php echo DINAMIC_URL ?>realtones/basico360/tonos/default.gif" width="64" height="47" border="0" />
+
+                                    <?php }
+                                    ?>
+                                    <p><?= strtoupper($this->compras->cancion) ?></p>
+                                    <br><span ><?= $this->compras->artista ?></span>
+                                    <form action="/pe/realtones/mis-compras"  method="post" Enctype="multipart/form-data">
+                                        <input type="hidden" name="archivo" value="<?= $this->compras->archivo ?>">
+                                        <input type="hidden" name="codigoCompra" value="<?= $this->compras->codigoCompra ?>">
+                                        <button style="float: right" type="submit">DESCARGAR
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="artist-text">
+                                    <div class="title-img">
+                                        <a class="text-title" style="margin-right: 5px;float: right;font-size:10px"
+                                           href="">Comprado el: <?= $this->compras->fechaCompra ?>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php
+                    } elseif ($this->cantidad > 1) {
+                        ?> 
+                        <div class="menuPrincipal clearfix">
+                            <?php
+                            $i = 0;
+                            foreach ($this->compras as $item):
+                                $i++;
+                                ?>
+                                <div id="medium" style="padding-bottom: 10px; margin-bottom:2px;">
+                                    <span class="puesto"><p><?= $i ?></p></span>
+                                    <div class="menu" >
+                                        <?php
+                                        $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/realtones/basico360/tonos/' . $item->imagen;
+                                        if (file_exists($nombre_fichero)) {
+                                            ?>
+                                            <img class=""
+                                                 src="<?php echo DINAMIC_URL ?>realtones/basico360/tonos/<?= $item->imagen ?>" ><?php } else {
+                                            ?>
+                                            <img src="<?php echo DINAMIC_URL ?>realtones/basico360/tonos/default.gif" width="64" height="47" border="0" />
+
+                                        <?php }
+                                        ?>
+                                        <p style="margin-top: 0px"><?= strtoupper($item->cancion) ?></p>
+                                        <br><span><?= $item->artista ?></span>
+                                        <form action="/pe/realtones/mis-compras"  method="post" Enctype="multipart/form-data">
+                                            <input type="hidden" name="archivo" value="<?= $item->archivo ?>">
+                                            <input type="hidden" name="codigoCompra" value="<?= $item->codigoCompra ?>">
+                                            <button style="float: right" type="submit">DESCARGAR
+                                            </button>
+                                        </form>
+                                    </div>
+                                    <div class="artist-text">
+                                        <div class="title-img">
+                                            <a class="text-title" style="margin-right: 5px;float: right;font-size:10px"
+                                               href="">Comprado el: <?= $item->fechaCompra ?>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <?php
+                            endforeach;
+                            ?> 
+                        </div>
+                        <?php
+                    } else {
+                        
+                    }
+                } else {
+
+
+                    if ($this->cantidad == 1) {
+                        ?>
+                        <br>
+                        <table class="artist-photo">
+                            <tr>
+                                <td class="artist" >
+                                    <div class="artist-text" style="text-align:left;">
+                                        <div class="title-img">
+                                            <a class="text-title"
+                                               href="#"><?= strtoupper($this->compras->cancion) ?>
+                                            </a>
+                                            <form action="/pe/realtones/mis-compras"  method="post" Enctype="multipart/form-data">
+                                                <input type="hidden" name="archivo" value="<?= $this->compras->archivo ?>">
+                                                 <input type="hidden" name="codigoCompra" value="<?= $this->compras->codigoCompra ?>">
+                                                <button style="float: right" type="submit">DESCARGAR
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <?php
+                    } elseif ($this->cantidad > 1) {
+                        ?> 
+                        <br>
+                        <table class="artist-photo">
+                            <?php
+                            $i = 0;
+                            foreach ($this->compras as $item):
+                                $i++;
+                                ?>
+                                <tr>
+                                    <td class="artist" >
+                                        <div class="artist-text" style="text-align:left;">
+                                            <div class="title-img">
+                                                <a class="text-title"
+                                                   href="#"><?= strtoupper($item->cancion) ?>
+                                                </a>
+                                                <form action="/pe/realtones/mis-compras"  method="post" Enctype="multipart/form-data">
+                                                    <input type="hidden" name="archivo" value="<?= $item->archivo ?>">
+                                                     <input type="hidden" name="codigoCompra" value="<?= $item->codigoCompra ?>">
+                                                    <button style="float: right" type="submit">DESCARGAR
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <?php
+                            endforeach;
+                            ?> 
+                        </table>
+                        <?php
+                    }
+                }
+                ?>    
+
+            </div>
+        </div>
+    </div>
+</div>
+

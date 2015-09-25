@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <?= $this->headTitle() ?>
+        <?= $this->headMeta() ?>
+        <meta http-equiv="Pragma" content="no-cache">
+            <meta http-equiv="expires" content="0">
+                <link rel="shortcut icon" href="<?php echo STATIC_URL ?>favicon.ico" />
+                <!-- css -->
+                <link href="<?php echo STATIC_URL ?>css/fulltracks/general.css"
+                      rel="stylesheet" />
+                <link href="<?php echo STATIC_URL ?>css/fulltracks/basico360.css"
+                      rel="stylesheet" />
+                <script type="text/javascript" src="<?php echo STATIC_URL ?>js/modules/fulltracks/jquery.min.js"></script>
+                </head>
+                <body>
+                    <div class="page">
+                        <div id="titulo" class="clearfix">
+                            <div class="boton">
+                                <a class="btn-volver" href="/pe/fulltracks"><< Volver</a>
+                            </div>
+                            <div class="titulo-pagina">WAP ENTEL</div>
+                        </div>
+                        <br/>
+                        <?= $this->layout()->content ?>
+                        <!--Footer-->                                
+                         <div class="ftr clearfix">
+                            <div class="clearfix ftSocialMedia">
+                                <a href="https://m.facebook.com/EntelPeru" class="btSocial fsmFacebook">Facebook</a>
+                                <a href="https://mobile.twitter.com/EntelPeru"  class="btSocial fsmTwitter">Twitter</a>
+                                <a href="https://www.youtube.com/user/PeruEntel"  class="btSocial fsmYoutube">YouTube</a>
+                            </div>
+                        </div>
+                        <!--/Footer-->
+                        <!--LEGAL-->
+                        <table class="artist-photo">
+                            <tr>
+                                <td class="artist" style="background-color: #0073ae">
+                                    <div class="artist-text">
+                                        <div class="title-img">
+                                            <a class="text-title" style="font-weight:bold ;color: white;font-size:16px;" href="/pe/fulltracks/legal">
+                                                LEGAL
+                                            </a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--LEGAL-->
+                    </div>
+                </body>
+                </html>

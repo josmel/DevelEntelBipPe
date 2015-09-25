@@ -1,0 +1,33 @@
+<div data-role="content">   
+    <br>
+    <div class='inset'>
+        <div> 
+            <img width="100%"   src="<?php echo STATIC_URL ?>css/jqueryMobile/banner_dedicatorias_nextel2.gif">
+        </div>
+         <?php $this->getMesseger(); ?>
+            <!--<p style="text-align:justify;color: white">Bienvenido al servicio de DEDICATORIAS ENTEL. Para elegir la cancion que deseas dedicar, dale click en Aceptar.</p>-->
+    </div>
+    <!----------------TONOS------------------------------------->
+    <?php if ($this->perfil == 1) {
+        ?>
+        <td class="artist" style="background-color: orange" >
+            <div class="artist-text">
+                <div class="title-img">
+                    <a class="text-title" style="background-color: orange;color: white;font-size:18px"
+                       href="/pe/realtones/confirmar-descarga?catalog=<?php echo $this->catalogo; ?>&descargar=true">ACEPTAR
+                    </a>
+                </div>
+            </div>
+        </td>
+    <?php } else { ?>
+        <form data-ajax="false" action="<?php echo $this->action; ?>"  method="post" Enctype="multipart/form-data">
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <input type="hidden" value="1"  name="mensaje"/>
+                    <button style="color:white" type="submit" >[&nbsp;&nbsp;Aceptar_</button>
+                </li>
+            </ul>
+        </form>
+
+    <?php } ?>
+</div>

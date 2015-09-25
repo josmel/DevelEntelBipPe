@@ -1,0 +1,438 @@
+/* CSS Document */
+/*Import Reset CSS*/
+@import url(estiloGeneral.css);
+@import url(reset.css);
+@font-face {
+    font-family: DINNextLTPro-Light;
+    src: url('fuentes/DINNextLTPro-Light.otf');
+}
+
+/* CLEARFIX ***********************/
+.clearfix:after{
+
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix{
+    display: inline-block;
+}
+/*\*/* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}/**/
+/**********************************/
+
+body{
+    font-family: 'DINNextLTPro-Light', Arial;
+    margin:0px;
+    padding:5px;
+}
+
+#top{
+    background:#0073ae;
+    height:39px;
+}
+
+#top a{text-decoration:none;}
+
+#top .logo_entel{
+    background: url(/static/img/portalwap/avanzado/logo_entel.png) no-repeat scroll 0 3px transparent;
+    height: 30px;
+    margin: auto;
+    width: 101px;
+}
+
+#top .flecha_atras{
+    border:1px solid #075a84;
+    background:url(/static/img/portalwap/avanzado/flecha_atras.jpg) no-repeat;
+    float:left;
+    height: 37px;
+    width: 37px;
+}
+
+#top .titulo_plan{
+    border-bottom:1px solid #075a84;
+    background:url(/static/img/portalwap/avanzado/logo_entel.jpg) no-repeat right #0073ae;
+    color: #FFFFFF;
+    font: bold 16px Arial;
+    height: 31px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+#medium{
+    background:#ebebeb;
+    padding-top:10px;
+}
+
+#medium .banner_top{
+    background:url(/static/img/portalwap/avanzado/banner_bloqueo_equipo.jpg) no-repeat;
+    height: 61px;
+    margin-left: 5px;
+    width: 289px;
+}
+
+#medium p{
+    color: #666666;
+    font:11px Arial;
+    margin-left: 5px;
+    margin-top:0px;
+    margin-bottom:10px;
+}
+
+
+#medium p a {
+     margin-top: 0;
+    font-size: 12px;
+    color: #666666;
+text-decoration: none;
+}
+#medium p a:hover {
+CURSOR: hand;
+TEXT-DECORATION: underline;
+}
+#medium h1{
+    font:bold 16px Arial;
+    color:#0073ae;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+
+#medium h2{
+    color: #666666;
+    font: bold 14px Arial;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+#medium h3{
+    font:bold 14px Arial;
+    color:#0073ae;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+
+#medium .profile{
+    background:url(/static/img/portalwap/avanzado/img_profile.jpg) no-repeat;
+    color: #666666;
+    font: 12px Arial;
+    height: 51px;
+    margin-left: 5px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+#medium .menu{
+    margin-bottom: 2px;
+    height: 52px;
+    margin-left:50px;
+    margin-right:10px;
+}
+
+#medium .menu img{
+    position:absolute;
+}
+
+#medium .menu span{
+    color: #F68E1F;
+
+    margin-left: 70px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+#medium .menu p{
+    color:   #0073ae;
+    /*font: bold 14px Arial;*/
+    margin-left: 70px;
+    margin-top: 10px;
+    position: absolute;
+}
+#medium   span.puesto p{
+    background: none repeat scroll 0 0 #0073ae;
+    color: #FFFFFF;
+    display: block;
+    position:absolute;
+    float: left;
+    font-family: Impact,Charcoal,sans-serif;
+    font-size: 40px;
+    height: 47px;
+    width: 37px;
+}
+#medium   span.puestoOne p{
+    background: none repeat scroll 0 0 red;
+    color: #FFFFFF;
+    display: block;
+    position:absolute;
+    float: left;
+    font-family: Impact,Charcoal,sans-serif;
+    font-size: 40px;
+    height: 47px;
+    width: 37px;
+}
+#medium a{
+    text-decoration:none;
+}
+#medium .info{
+    background:#FFF;
+    border:1px solid #CCC;
+    color:#666;
+    font: 12px Arial;    
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 7px 10px;
+}
+.info_siguiente{border-top:none !important;}
+
+
+
+.ico_twitter{background:url(/static/img/fulltracks/ico_twitter_min.jpg) no-repeat scroll 0 3px transparent}
+.ico_facebook{background:url(/static/img/fulltracks/ico_facebook_min.jpg) no-repeat scroll 0 3px transparent}
+.ico_telefono{background:url(/static/img/reafulltracksltones/ico_telefono.jpg) no-repeat #FFF;}
+.ico_bam{background:url(/static/img/fulltracks/ico_bam.jpg) no-repeat #FFF;}
+.ico_compra{background:url(/static/img/fulltracks/ico_compra.jpg) no-repeat #FFF;}
+.ico_cyc{background:url(/static/img/fulltracks/ico_compra_y_contrata.jpg) no-repeat #FFF;}
+.ico_ayuda_y_soporte{background:url(/static/img/fulltracks/ico_ayuda_y_soporte.jpg) no-repeat #FFF;}
+.ico_beneficios{background:url(/static/img/fulltracks/ico_beneficios.jpg) no-repeat #FFF;}
+.ico_contacto{background:url(/static/img/fulltracks/ico_correo.jpg) no-repeat #FFF;}
+.ico_nokiac202_grey{background:url(/static/img/fulltracks/ico_nokia-c2-02_grey.jpg) no-repeat #FFF;}
+.ico_nokiac202_silver_white{background:url(/static/img/fulltracks/ico_nokia-c2-02_silver-white.jpg) no-repeat #FFF;}
+
+
+#destacado a {
+    display:block;
+    font-weight:bold;
+    float:left;
+    line-height:18px;
+    margin-top:15px;
+    padding-left:10px;
+    width: 100%;
+    text-decoration:none; 
+    color: #FFF;
+}
+#artista {
+    font-size: 14px;
+    padding: 0px 0px;
+
+}
+#cancion {
+    font-size: 12px;
+    padding: 0px 0px;
+
+}
+
+.txt-titulo {
+    color: #F69021 !important;
+    font-family: 'Trebuchet MS',Arial;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESTILOS PARA CABECERA DE LISTADO REGIONES > COMUNAS > TIENAS (3 PASOS) */
+#cabecera-listado {
+    display: block;
+    width: 100%;
+    height: 34px;
+}
+#cabecera-listado a.paso {
+    display: block;
+    float: left;
+    width: 15%;
+    border-bottom: 1px solid #dddddd;
+    text-decoration: none;
+}
+#cabecera-listado .paso .titulo {
+    display: none;
+}
+#cabecera-listado .paso.seleccionado {
+    width: 100%;
+}
+#cabecera-listado .paso.seleccionado .titulo {
+    display: block;
+    float: left;
+    color: #0154a0;
+    padding: 3px 0;
+    font-family: "Trebuchet MS", Helvetica, Arial, Verdana;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+#cabecera-listado .paso.ultimo,
+#cabecera-listado .seleccionado.ultimo {
+    background-image: none;
+}
+#cabecera-listado .paso .textos {
+    padding: 3px 5px ;
+}
+#cabecera-listado .paso .textos span.bullet {
+    display: block;
+    width: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: "Trebuchet MS", Helvetica, Arial, Verdana;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
+    background: #dddddd;
+    padding: 3px;
+    margin: 0 auto;
+}
+#cabecera-listado .paso.seleccionado .textos span.bullet {
+    margin: 0 10px 0 0;
+    float: left;
+    background: #aaaaaa;
+}
+
+
+
+
+
+#cabecera-listado .paso .textos span.buscador {
+    display: block;
+    width: 20px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
+    padding: 3px;
+    margin: 0 auto;
+}
+#cabecera-listado .paso.seleccionado .textos span.buscador {
+    margin: 0 10px 0 0;
+    float: left;
+}
+#cabecera-listado .paso .titulo2 {
+    display: none;
+}
+#cabecera-listado .paso.seleccionado .titulo2 {
+    display: block;
+    float: left;
+    color: #0154a0;
+    padding: 3px 0 0 55px;
+    font-family: "Trebuchet MS", Helvetica, Arial, Verdana;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#titulo {
+    display: block;
+    margin: 0 0 10px;
+}
+#titulo .boton {
+    display: inline-block;
+    float: left;
+    margin: 0 5px 0 0;
+    width: 13%;
+}
+#titulo .boton a.btn-volver {
+    background: url("/static/img/fulltracks/btn-volver.jpg") no-repeat scroll center top #0073AE;
+    display: block;
+    float: left;
+    height: 40px;
+    text-indent: -9999px;
+    width: 100%;
+}
+#titulo .titulo-pagina {
+    background: url("/static/img/fulltracks/logo_entel.jpg") no-repeat scroll right  #0073AE;
+    display: inline-block;
+    float: right;
+    height: 40px;
+    text-indent: -9999px;
+    width: 85%;
+}
+
+
+
+
+// MUSICA
+
+table-others{width:100%;font-size:12px;text-align:center}
+.img-icono{padding-top:3px;padding-right:5px;width:100%}.table-buttons{line-height:1px}
+.artist{vertical-align:top;padding:5px;margin-bottom:0;width:20%;  background: none repeat scroll 0 0 #F2F2F2;
+    color: #FFFFFF;}
+.artistaDestacado{vertical-align:top;padding:5px;margin-bottom:0;width:100%;  background: none repeat scroll 0 0 #F2F2F2;
+    color: #FFFFFF;}
+
+.artistaDestacadoDetalle {
+    
+    margin-top: 10px;
+}
+.artistaDestacadoDetalle span{
+    color: #F68E1F;
+    font-size: 4vw;
+    margin-left: 10px;
+}
+.artistaDestacadoDetalle a {
+    text-decoration:none;
+}
+
+ .artistaDestacadoDetalle p{
+     margin-top: 5px;
+    color:   #0073ae;
+    margin-top:0;
+    text-decoration:none;
+    font-size: 4vw;
+    font-family: 'DINNextLTPro-Light';
+    margin-left: 10px;
+}
+
+
+.artist-photo{margin-bottom:-10px;width:100%}.title-img{font-size:10px;margin-top:2px}
+.artist-text{text-align:center;font:12px Arial;margin-bottom:10px}
+.artist.nuevo {padding-top:3px;padding-right: 10px; width: 20px}
+.text-title{margin-top:0;font-family: 'DINNextLTPro-Light', Arial;text-decoration:none;size: 20px;color: black;height: 20%}
+.artist-text  span.puestoBlue p{
+    position: absolute;
+    float: left;
+    background: none repeat scroll 0 0 #0073ae;
+    color: #FFFFFF;
+    display: block;
+    font-family: Impact,Charcoal,sans-serif;
+    width: 2%;
+    height: 3%;
+}
+.artist-text  span.puestoRed p{
+    position: absolute;
+    float: left;
+    background: none repeat scroll 0 0 Red;
+    color: #FFFFFF;
+    display: block;
+    font-family: Impact,Charcoal,sans-serif;
+    width: 2%;
+    height: 3%;
+}
+
+
+
+
+//DEPORTESNOTICIAS:
+

@@ -1,0 +1,178 @@
+<h3 class="admin-title">Banner</h3>
+
+<div class="frm-panel">
+    <form method="POST" Enctype="multipart/form-data"> 
+        <div class="control-group">
+            <div class="control">
+                <select id="type" name="type" class="select-large">
+                    <?php foreach ($this->types as $key => $type) : ?>
+                        <option value="<?php echo $key; ?>" <?php echo $this->selectedType == $key ? 'selected' : ''; ?>><?php echo $type; ?></option>
+                    <?php endforeach; ?>
+                </select> 
+            </div>
+        </div>
+        <div class="row-well">
+            <div class="ctn-file">
+
+                <button id="btnBanner" class="btn-admin btn-file">Agregar Banner<span></span></button>
+                <span class="help-iblock w565">*Para agregar un banner, haga click en el botón "Agregar Banner" y luego seleccione la ubicación de la imagen a subir, ordene los banner según lo requiera y luego haga clic en el botón "Guardar cambios".</span>
+            </div>
+            <h3> <?php echo $this->mensaje; ?>
+                <!--Las imágenes pueden tener las siguientes extensiones PNG,JPG,GIF o JPEG-->
+            </h3>       
+            <div id="ctn-banner" class="row">
+                <p class="nd-banner hide">No hay banners en esta categoría</p>
+                <ul id="sortBanner" class="sort-banner">
+                    <?php foreach ($this->banners as $banner) : ?>
+                        <li class="li-sbanner">
+                            <div class="banner-img">
+                                <img src="<?php echo DINAMIC_URL . 'banner/origin/' . $banner['imagen']; ?>" width="70" height="70" />
+                            </div>
+                            <div class="banner-desc">
+                                <div class="cgroup-inline">
+                                    <div class="control-group">
+                                        <label class="control-label">Título:</label>
+                                        <div class="controls">
+                                            <input type="text" name="txtTitulo[<?php echo $banner['idbanner']; ?>]" 
+                                                   value="<?php echo $banner['titulo']; ?>"/>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label">Visible:</label>
+                                        <div class="controls fix">
+                                            <input type="checkbox" value="1" name="chkEstado[<?php echo $banner['idbanner']; ?>]" 
+                                                   <?php echo $banner['vchestado'] == 'A' ? 'checked="checked"' : ''; ?> />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group last">
+                                    <label class="control-label">Link:</label>
+                                    <div class="controls">
+                                        <input type="text" name="txtLink[<?php echo $banner['idbanner']; ?>]" 
+                                               value="<?php echo $banner['url']; ?>" />
+                                    </div>
+                                </div>
+                                <table style="width: 500px ">
+                                    <tr><td> 
+                                            <div style="width: 80px">Avanzado:
+                                                <input width="40px" type="file" name="avanzado[<?php echo $banner['idbanner']; ?>]" 
+                                                       value="<?php echo $banner['ImgAvanzado']; ?>" />
+                                                <input  type="hidden" name="hiddenAvanzado[<?php echo $banner['idbanner']; ?>]" 
+                                                        value="<?php echo $banner['ImgAvanzado']; ?>" />
+                                                <img width="50px" height="50px" src="<?php echo DINAMIC_URL . 'banner/avanzado/' . $banner['ImgAvanzado']; ?>" >
+                                            </div>
+                                        </td>
+                                        <td><div style="width: 80px">Basico128:
+                                                <input type="file" name="basico128[<?php echo $banner['idbanner']; ?>]" value="<?php echo $banner['ImgBasico128']; ?>" />
+                                                <input type="hidden" name="hiddenBasico128[<?php echo $banner['idbanner']; ?>]" 
+                                                       value="<?php echo $banner['ImgBasico128']; ?>" />
+                                                <img width="50px" height="50px" src="<?php echo DINAMIC_URL . 'banner/basico128/' . $banner['ImgBasico128']; ?>" >
+                                            </div>
+                                        </td>
+                                        <td><div style="width: 80px">Basico240:
+                                                <input type="file" name="basico240[<?php echo $banner['idbanner']; ?>]" value="<?php echo $banner['ImgBasico240']; ?>" />
+                                                <input type="hidden" name="hiddenBasico240[<?php echo $banner['idbanner']; ?>]" 
+                                                       value="<?php echo $banner['ImgBasico240']; ?>" />
+                                                <img width="50px" height="50px" src="<?php echo DINAMIC_URL . 'banner/basico240/' . $banner['ImgBasico240']; ?>" >
+                                            </div>
+                                        </td>
+                                        <td><div style="width: 80px">Basico360:
+                                                <input type="file" name="basico360[<?php echo $banner['idbanner']; ?>]" value="<?php echo $banner['ImgBasico360']; ?>" />
+                                                <input type="hidden" name="hiddenBasico360[<?php echo $banner['idbanner']; ?>]" 
+                                                       value="<?php echo $banner['ImgBasico360']; ?>" />
+                                                <img width="50px" height="50px" src="<?php echo DINAMIC_URL . 'banner/basico360/' . $banner['ImgBasico360']; ?>" >
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table> 
+                            </div>
+                            <input type="hidden" name="txtImagen[<?php echo $banner['idbanner']; ?>]" value="<?php echo $banner['imagen']; ?>" />
+                            <a class="ic-close" href="javascript:;" title="Cerrar"></a>
+                        </li>
+
+                    <?php endforeach; ?>
+
+                </ul>
+                <div class="control">
+                    <button type="submit" class="btn-admin">Guardar cambios</button>
+                </div>
+<!--                <input type="file" onChange="document.imagen.src = 'file:///' + this.value"><br><br>
+                Vista previa:<br><br>
+                <img src="imagen_defecto.png" name="imagen"> -->
+            </div>
+        </div>
+    </form>
+</div>
+<script id="tplBanner" type="text/template">
+    <li class="li-sbanner">
+    <div class="banner-img">
+    <img src="{{= source}}" width="70" height="70" />
+    </div>
+    <div class="banner-desc">
+    <div class="cgroup-inline">
+    <div class="control-group">
+    <label class="control-label">Título:</label>
+    <div class="controls">
+    <input type="text" name="txtTitulo[{{= code}}]" />
+    </div>
+    </div>
+    <div class="control-group">
+    <label class="control-label">Visible:</label>
+    <div class="controls fix">
+    <input type="checkbox" checked="checked" value="1" name="chkEstado[{{= code}}]" />
+    </div>
+    </div>
+    </div>
+    <div class="control-group last">
+    <label class="control-label">Link:</label>
+    <div class="controls">
+    <input type="text" name="txtLink[{{= code}}]" />
+     <table style="width: 500px ">
+                                    <tr><td> 
+                                            <div style="width: 80px">Avanzado:
+                                           <input type="file" name="avanzado[{{= code}}]" value="" />     
+                                            </div>
+                                        </td>
+                                        <td>
+                                          <div style="width: 80px">Basico128:
+                                          <input type="file" name="basico128[{{= code}}]" value="" /> 
+                                            </div>
+                                        </td>
+                                        <td>
+                                         <div style="width: 80px">Basico240:
+                                             <input type="file" name="basico240[{{= code}}]" value="" />
+                                            </div>
+                                        </td>
+                                        <td><div style="width: 80px">Basico360:
+                                             <input type="file" name="basico360[{{= code}}]" value="" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>            
+                
+    </div>
+
+    </div>
+    </div>
+    <input type="hidden" name="txtImagen[{{= code}}]" value="{{= nombre}}" />
+    <a class="ic-close" href="javascript:;" title="Cerrar"></a>
+    </li>
+</script>
+
+<script>
+function readURL(input) {
+
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            $('#blah').attr('src', e.target.result);
+        }
+
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+
+$("#imgInp").change(function(){
+    readURL(this);
+});</script>

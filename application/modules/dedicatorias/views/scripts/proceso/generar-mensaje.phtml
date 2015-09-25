@@ -1,0 +1,31 @@
+<h3 class="mensajeGenerico">
+    Ingrese su Mensaje_</h3><div data-role="content">   
+    <div class='inset'>
+        <br>
+        <?php $this->getMesseger(); ?>
+    </div>
+
+    <form data-ajax="false" action="<?php echo $this->action; ?>"  method="post" Enctype="multipart/form-data">
+        <ul data-role="listview" data-inset="true">
+            <li data-role="fieldcontain">
+                <label for="name2b">Número de destino :</label>
+                <input onKeyUp="maximo(this, 9);" onKeyDown="maximo(this, 9);" type="number" value="<?php echo $this->numeroDestino ?>" name="numeroDestino" id="inputDate" pattern="[0-9]*" value="" data-clear-btn="true" placeholder="ingrese el número...">
+            </li>
+            <li data-role="fieldcontain">
+                <label for="textarea2b">Mensaje :<span class="nchar"> (max. 80 caracteres)</span></label>
+                <textarea  onKeyUp="maximo(this, 80);" onKeyDown="maximo(this, 80);" cols="40" rows="8" name="dedicatoria" id="textarea2b" placeholder="escriba la dedicatoria.."><?php echo $this->dedicatoria ?></textarea>
+            </li>
+            <li>
+                     <!--<button style="background-color: #FF6702;color:white" type="submit" ><i class='lIcon fa fa-check'></i>Aceptar</button>-->
+                <button style="color:white" type="submit" >[&nbsp;&nbsp;Aceptar_</button>
+            </li>
+        </ul>
+    </form>
+</div>
+<script>
+    function maximo(campo, limite) {
+        if (campo.value.length >= limite) {
+            campo.value = campo.value.substring(0, limite);
+        }
+    }
+</script>

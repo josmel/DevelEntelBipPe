@@ -1,0 +1,56 @@
+<?php //if (isset($this->exception)):   ?>
+
+<!--  <h3>Exception information:</h3>
+  <p>
+      <b>Message:</b> <?php //echo $this->exception->getMessage()     ?>
+  </p>
+
+  <h3>Stack trace:</h3>
+  <pre><?php //echo $this->exception->getTraceAsString()     ?>
+  </pre>
+
+  <h3>Request Parameters:</h3>
+  <pre><?php //echo $this->escape(var_export($this->request->getParams(), true))     ?>
+  </pre>-->
+
+<?php //endif ?>
+<table class="artist-photo">
+    <tr>
+        <td class="artist" colspan=3 >
+            <div class="artist-text">
+
+                <div class="title-img">
+                    <a class="text-title" style="font-size:10px"
+                       href=""> <h1>Se ha producido un error</h1>
+                    </a>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="artist" colspan=3 >
+            <div class="artist-text">
+
+                <div class="title-img">
+                    <a class="text-title" style="font-size:10px"
+                       href=""> <h2><?php echo $this->message ?></h2>
+                    </a>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+<br>
+<table class="artist-photo">
+    <tr>
+        <td class="artist" style="background-color: orange">
+            <div class="artist-text">
+                <div class="title-img">
+                    <a class="text-title" style="color: white;font-size:15px;font-weight:bold;" href="http://m.entretenimiento.entel.pe">
+                        IR A ENTRETENIMIENTO
+                    </a>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>

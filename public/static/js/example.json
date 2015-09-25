@@ -1,0 +1,2133 @@
+[
+  {
+    "sha": "46f56ba4e11aebac4e7cfca3f87421e27a4f34e6",
+    "commit": {
+      "author": {
+        "name": "Perry Govier",
+        "email": "govierp@gmail.com",
+        "date": "2014-12-17T23:37:15Z"
+      },
+      "committer": {
+        "name": "Perry Govier",
+        "email": "govierp@gmail.com",
+        "date": "2014-12-17T23:37:15Z"
+      },
+      "message": "docs(formatting): bringing attention to certain beta14 related concepts",
+      "tree": {
+        "sha": "317cb4419288c8a03143e3aec8edd18d1f9b3789",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/317cb4419288c8a03143e3aec8edd18d1f9b3789"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/46f56ba4e11aebac4e7cfca3f87421e27a4f34e6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/46f56ba4e11aebac4e7cfca3f87421e27a4f34e6",
+    "html_url": "https://github.com/driftyco/ionic/commit/46f56ba4e11aebac4e7cfca3f87421e27a4f34e6",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/46f56ba4e11aebac4e7cfca3f87421e27a4f34e6/comments",
+    "author": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0f5bed67430fa9ac9630b08ecc3745264598c0a7",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/0f5bed67430fa9ac9630b08ecc3745264598c0a7",
+        "html_url": "https://github.com/driftyco/ionic/commit/0f5bed67430fa9ac9630b08ecc3745264598c0a7"
+      }
+    ]
+  },
+  {
+    "sha": "0f5bed67430fa9ac9630b08ecc3745264598c0a7",
+    "commit": {
+      "author": {
+        "name": "Perry Govier",
+        "email": "perrygovier@users.noreply.github.com",
+        "date": "2014-12-17T20:15:06Z"
+      },
+      "committer": {
+        "name": "Perry Govier",
+        "email": "perrygovier@users.noreply.github.com",
+        "date": "2014-12-17T20:15:06Z"
+      },
+      "message": "docs(menuToggle): paragraph spacing",
+      "tree": {
+        "sha": "9f9a86985e4248db1dd7593fe62a72488734aa49",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/9f9a86985e4248db1dd7593fe62a72488734aa49"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/0f5bed67430fa9ac9630b08ecc3745264598c0a7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/0f5bed67430fa9ac9630b08ecc3745264598c0a7",
+    "html_url": "https://github.com/driftyco/ionic/commit/0f5bed67430fa9ac9630b08ecc3745264598c0a7",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/0f5bed67430fa9ac9630b08ecc3745264598c0a7/comments",
+    "author": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a7a21fb939634bbfff8c591ac8561ac2463d4e70",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/a7a21fb939634bbfff8c591ac8561ac2463d4e70",
+        "html_url": "https://github.com/driftyco/ionic/commit/a7a21fb939634bbfff8c591ac8561ac2463d4e70"
+      }
+    ]
+  },
+  {
+    "sha": "a7a21fb939634bbfff8c591ac8561ac2463d4e70",
+    "commit": {
+      "author": {
+        "name": "Perry Govier",
+        "email": "perrygovier@users.noreply.github.com",
+        "date": "2014-12-17T20:11:42Z"
+      },
+      "committer": {
+        "name": "Perry Govier",
+        "email": "perrygovier@users.noreply.github.com",
+        "date": "2014-12-17T20:11:42Z"
+      },
+      "message": "docs(menuToggle): reorder paragraphs",
+      "tree": {
+        "sha": "46127ac50dfcbfdc43dddcdd6c2f4b89d5963928",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/46127ac50dfcbfdc43dddcdd6c2f4b89d5963928"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/a7a21fb939634bbfff8c591ac8561ac2463d4e70",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/a7a21fb939634bbfff8c591ac8561ac2463d4e70",
+    "html_url": "https://github.com/driftyco/ionic/commit/a7a21fb939634bbfff8c591ac8561ac2463d4e70",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/a7a21fb939634bbfff8c591ac8561ac2463d4e70/comments",
+    "author": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c6c0f1ddb6f1fc8f928413550db0af032a2b36fd",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/c6c0f1ddb6f1fc8f928413550db0af032a2b36fd",
+        "html_url": "https://github.com/driftyco/ionic/commit/c6c0f1ddb6f1fc8f928413550db0af032a2b36fd"
+      }
+    ]
+  },
+  {
+    "sha": "c6c0f1ddb6f1fc8f928413550db0af032a2b36fd",
+    "commit": {
+      "author": {
+        "name": "Perry Govier",
+        "email": "perrygovier@users.noreply.github.com",
+        "date": "2014-12-17T20:07:09Z"
+      },
+      "committer": {
+        "name": "Perry Govier",
+        "email": "perrygovier@users.noreply.github.com",
+        "date": "2014-12-17T20:07:09Z"
+      },
+      "message": "docs(menuToggle): typo",
+      "tree": {
+        "sha": "da82f2295aea50f40d35b50e6ce085f9017ae315",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/da82f2295aea50f40d35b50e6ce085f9017ae315"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/c6c0f1ddb6f1fc8f928413550db0af032a2b36fd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/c6c0f1ddb6f1fc8f928413550db0af032a2b36fd",
+    "html_url": "https://github.com/driftyco/ionic/commit/c6c0f1ddb6f1fc8f928413550db0af032a2b36fd",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/c6c0f1ddb6f1fc8f928413550db0af032a2b36fd/comments",
+    "author": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bafa5c720223fe1bfcd8ee981b20b062d73f27c1",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/bafa5c720223fe1bfcd8ee981b20b062d73f27c1",
+        "html_url": "https://github.com/driftyco/ionic/commit/bafa5c720223fe1bfcd8ee981b20b062d73f27c1"
+      }
+    ]
+  },
+  {
+    "sha": "bafa5c720223fe1bfcd8ee981b20b062d73f27c1",
+    "commit": {
+      "author": {
+        "name": "Perry Govier",
+        "email": "perrygovier@users.noreply.github.com",
+        "date": "2014-12-17T19:59:02Z"
+      },
+      "committer": {
+        "name": "Perry Govier",
+        "email": "perrygovier@users.noreply.github.com",
+        "date": "2014-12-17T19:59:02Z"
+      },
+      "message": "docs(menuToggle): Mention enable-side-menu-with-back-views in the menu-toggle docs",
+      "tree": {
+        "sha": "05f854d61c742845571f98dcfef38eec68f42e2b",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/05f854d61c742845571f98dcfef38eec68f42e2b"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/bafa5c720223fe1bfcd8ee981b20b062d73f27c1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/bafa5c720223fe1bfcd8ee981b20b062d73f27c1",
+    "html_url": "https://github.com/driftyco/ionic/commit/bafa5c720223fe1bfcd8ee981b20b062d73f27c1",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/bafa5c720223fe1bfcd8ee981b20b062d73f27c1/comments",
+    "author": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c06f668e87eaa3f3a007c0b8093c7c129cbd2bef",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/c06f668e87eaa3f3a007c0b8093c7c129cbd2bef",
+        "html_url": "https://github.com/driftyco/ionic/commit/c06f668e87eaa3f3a007c0b8093c7c129cbd2bef"
+      }
+    ]
+  },
+  {
+    "sha": "c06f668e87eaa3f3a007c0b8093c7c129cbd2bef",
+    "commit": {
+      "author": {
+        "name": "Perry Govier",
+        "email": "perrygovier@users.noreply.github.com",
+        "date": "2014-12-15T20:48:21Z"
+      },
+      "committer": {
+        "name": "Perry Govier",
+        "email": "perrygovier@users.noreply.github.com",
+        "date": "2014-12-15T20:48:21Z"
+      },
+      "message": "docs(navView): correct markdown formatting",
+      "tree": {
+        "sha": "bbbf3d4b75d8f6be6aeb912713da5fa61c44b5e6",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/bbbf3d4b75d8f6be6aeb912713da5fa61c44b5e6"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/c06f668e87eaa3f3a007c0b8093c7c129cbd2bef",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/c06f668e87eaa3f3a007c0b8093c7c129cbd2bef",
+    "html_url": "https://github.com/driftyco/ionic/commit/c06f668e87eaa3f3a007c0b8093c7c129cbd2bef",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/c06f668e87eaa3f3a007c0b8093c7c129cbd2bef/comments",
+    "author": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fc0bf478240350897e5f339bd3c9459f60d31c99",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/fc0bf478240350897e5f339bd3c9459f60d31c99",
+        "html_url": "https://github.com/driftyco/ionic/commit/fc0bf478240350897e5f339bd3c9459f60d31c99"
+      }
+    ]
+  },
+  {
+    "sha": "fc0bf478240350897e5f339bd3c9459f60d31c99",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-15T20:25:24Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-15T20:25:24Z"
+      },
+      "message": "chore(): delete unused file",
+      "tree": {
+        "sha": "a6321a664eda91dbc9b26f1f8a63d2b46bf04f44",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/a6321a664eda91dbc9b26f1f8a63d2b46bf04f44"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/fc0bf478240350897e5f339bd3c9459f60d31c99",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/fc0bf478240350897e5f339bd3c9459f60d31c99",
+    "html_url": "https://github.com/driftyco/ionic/commit/fc0bf478240350897e5f339bd3c9459f60d31c99",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/fc0bf478240350897e5f339bd3c9459f60d31c99/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7e9dd3e571fc0e0ba0326334bbbcaeb7b9551db7",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/7e9dd3e571fc0e0ba0326334bbbcaeb7b9551db7",
+        "html_url": "https://github.com/driftyco/ionic/commit/7e9dd3e571fc0e0ba0326334bbbcaeb7b9551db7"
+      }
+    ]
+  },
+  {
+    "sha": "7e9dd3e571fc0e0ba0326334bbbcaeb7b9551db7",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-15T20:20:41Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-15T20:20:41Z"
+      },
+      "message": "amend(changelog): v1.0.0-beta.14 update",
+      "tree": {
+        "sha": "4321261cc1ca200453d11f7d5e470a9218c60873",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/4321261cc1ca200453d11f7d5e470a9218c60873"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/7e9dd3e571fc0e0ba0326334bbbcaeb7b9551db7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/7e9dd3e571fc0e0ba0326334bbbcaeb7b9551db7",
+    "html_url": "https://github.com/driftyco/ionic/commit/7e9dd3e571fc0e0ba0326334bbbcaeb7b9551db7",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/7e9dd3e571fc0e0ba0326334bbbcaeb7b9551db7/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fb1633e5608f913591a6d92a0e793206c31b7099",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/fb1633e5608f913591a6d92a0e793206c31b7099",
+        "html_url": "https://github.com/driftyco/ionic/commit/fb1633e5608f913591a6d92a0e793206c31b7099"
+      }
+    ]
+  },
+  {
+    "sha": "fb1633e5608f913591a6d92a0e793206c31b7099",
+    "commit": {
+      "author": {
+        "name": "Ionitron",
+        "email": "hi@ionicframework.com",
+        "date": "2014-12-15T20:15:47Z"
+      },
+      "committer": {
+        "name": "Ionitron",
+        "email": "hi@ionicframework.com",
+        "date": "2014-12-15T20:15:47Z"
+      },
+      "message": "release: v1.0.0-beta.14 \"magnesium-mongoose\"",
+      "tree": {
+        "sha": "c88ac606bdd8cd3d42256516a350f7546f78f199",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/c88ac606bdd8cd3d42256516a350f7546f78f199"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/fb1633e5608f913591a6d92a0e793206c31b7099",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/fb1633e5608f913591a6d92a0e793206c31b7099",
+    "html_url": "https://github.com/driftyco/ionic/commit/fb1633e5608f913591a6d92a0e793206c31b7099",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/fb1633e5608f913591a6d92a0e793206c31b7099/comments",
+    "author": {
+      "login": "Ionitron",
+      "id": 6591344,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6591344?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ionitron",
+      "html_url": "https://github.com/Ionitron",
+      "followers_url": "https://api.github.com/users/Ionitron/followers",
+      "following_url": "https://api.github.com/users/Ionitron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Ionitron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Ionitron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Ionitron/subscriptions",
+      "organizations_url": "https://api.github.com/users/Ionitron/orgs",
+      "repos_url": "https://api.github.com/users/Ionitron/repos",
+      "events_url": "https://api.github.com/users/Ionitron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Ionitron/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Ionitron",
+      "id": 6591344,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6591344?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ionitron",
+      "html_url": "https://github.com/Ionitron",
+      "followers_url": "https://api.github.com/users/Ionitron/followers",
+      "following_url": "https://api.github.com/users/Ionitron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Ionitron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Ionitron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Ionitron/subscriptions",
+      "organizations_url": "https://api.github.com/users/Ionitron/orgs",
+      "repos_url": "https://api.github.com/users/Ionitron/repos",
+      "events_url": "https://api.github.com/users/Ionitron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Ionitron/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2e3513dc04348ab0147683227eb6819c196379c7",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/2e3513dc04348ab0147683227eb6819c196379c7",
+        "html_url": "https://github.com/driftyco/ionic/commit/2e3513dc04348ab0147683227eb6819c196379c7"
+      }
+    ]
+  },
+  {
+    "sha": "2e3513dc04348ab0147683227eb6819c196379c7",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-15T20:12:52Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-15T20:12:52Z"
+      },
+      "message": "release(): version 1.0.0-beta.14",
+      "tree": {
+        "sha": "22a6db057217f7700adc3f31494f27643cac5dde",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/22a6db057217f7700adc3f31494f27643cac5dde"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/2e3513dc04348ab0147683227eb6819c196379c7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/2e3513dc04348ab0147683227eb6819c196379c7",
+    "html_url": "https://github.com/driftyco/ionic/commit/2e3513dc04348ab0147683227eb6819c196379c7",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/2e3513dc04348ab0147683227eb6819c196379c7/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3a92fe46b64e166a599e943993ff997e85dfadf4",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/3a92fe46b64e166a599e943993ff997e85dfadf4",
+        "html_url": "https://github.com/driftyco/ionic/commit/3a92fe46b64e166a599e943993ff997e85dfadf4"
+      }
+    ]
+  },
+  {
+    "sha": "3a92fe46b64e166a599e943993ff997e85dfadf4",
+    "commit": {
+      "author": {
+        "name": "Perry Govier",
+        "email": "govierp@gmail.com",
+        "date": "2014-12-15T17:56:19Z"
+      },
+      "committer": {
+        "name": "Perry Govier",
+        "email": "govierp@gmail.com",
+        "date": "2014-12-15T17:56:19Z"
+      },
+      "message": "fix(tabs): fix non-retina border color when tabs color and bg color are used together",
+      "tree": {
+        "sha": "9076a4c52287c08d2c8f2cbb7af65c4b1e50e5d0",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/9076a4c52287c08d2c8f2cbb7af65c4b1e50e5d0"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/3a92fe46b64e166a599e943993ff997e85dfadf4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/3a92fe46b64e166a599e943993ff997e85dfadf4",
+    "html_url": "https://github.com/driftyco/ionic/commit/3a92fe46b64e166a599e943993ff997e85dfadf4",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/3a92fe46b64e166a599e943993ff997e85dfadf4/comments",
+    "author": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5304c9639809a33c6d751ad2ededc2d9daaf1ea4",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/5304c9639809a33c6d751ad2ededc2d9daaf1ea4",
+        "html_url": "https://github.com/driftyco/ionic/commit/5304c9639809a33c6d751ad2ededc2d9daaf1ea4"
+      }
+    ]
+  },
+  {
+    "sha": "5304c9639809a33c6d751ad2ededc2d9daaf1ea4",
+    "commit": {
+      "author": {
+        "name": "Perry Govier",
+        "email": "govierp@gmail.com",
+        "date": "2014-12-15T17:54:49Z"
+      },
+      "committer": {
+        "name": "Perry Govier",
+        "email": "govierp@gmail.com",
+        "date": "2014-12-15T17:54:49Z"
+      },
+      "message": "fix(tabs): fix scss compile error on some versions of sass Closes #2719",
+      "tree": {
+        "sha": "a2ba9c24cca3e4e6c841d6d3d330ec2f7cdd7f85",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/a2ba9c24cca3e4e6c841d6d3d330ec2f7cdd7f85"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/5304c9639809a33c6d751ad2ededc2d9daaf1ea4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/5304c9639809a33c6d751ad2ededc2d9daaf1ea4",
+    "html_url": "https://github.com/driftyco/ionic/commit/5304c9639809a33c6d751ad2ededc2d9daaf1ea4",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/5304c9639809a33c6d751ad2ededc2d9daaf1ea4/comments",
+    "author": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b6c7f3f2d066b2de168718032c36b528aa9da56f",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/b6c7f3f2d066b2de168718032c36b528aa9da56f",
+        "html_url": "https://github.com/driftyco/ionic/commit/b6c7f3f2d066b2de168718032c36b528aa9da56f"
+      }
+    ]
+  },
+  {
+    "sha": "b6c7f3f2d066b2de168718032c36b528aa9da56f",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-15T16:40:36Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-15T16:40:37Z"
+      },
+      "message": "test(tap): fix tap tests from tolerance change",
+      "tree": {
+        "sha": "288e64c55377685f65267b3991e853de524aba01",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/288e64c55377685f65267b3991e853de524aba01"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/b6c7f3f2d066b2de168718032c36b528aa9da56f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/b6c7f3f2d066b2de168718032c36b528aa9da56f",
+    "html_url": "https://github.com/driftyco/ionic/commit/b6c7f3f2d066b2de168718032c36b528aa9da56f",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/b6c7f3f2d066b2de168718032c36b528aa9da56f/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "894e429cd6f0ed8b2e2130ec694bfca78c0b5b43",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/894e429cd6f0ed8b2e2130ec694bfca78c0b5b43",
+        "html_url": "https://github.com/driftyco/ionic/commit/894e429cd6f0ed8b2e2130ec694bfca78c0b5b43"
+      }
+    ]
+  },
+  {
+    "sha": "894e429cd6f0ed8b2e2130ec694bfca78c0b5b43",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adamdbradley@users.noreply.github.com",
+        "date": "2014-12-15T15:58:45Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adamdbradley@users.noreply.github.com",
+        "date": "2014-12-15T15:58:45Z"
+      },
+      "message": "Merge pull request #2715 from Nesk/tap-release-tolerance-increase\n\nrefactor(tap): increase tap release tolerance",
+      "tree": {
+        "sha": "48c3799d632a2dab811cc6af0dd1dce037de042e",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/48c3799d632a2dab811cc6af0dd1dce037de042e"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/894e429cd6f0ed8b2e2130ec694bfca78c0b5b43",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/894e429cd6f0ed8b2e2130ec694bfca78c0b5b43",
+    "html_url": "https://github.com/driftyco/ionic/commit/894e429cd6f0ed8b2e2130ec694bfca78c0b5b43",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/894e429cd6f0ed8b2e2130ec694bfca78c0b5b43/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "71cb2023dc9381dd85ff485bec73f3c773bea3b7",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/71cb2023dc9381dd85ff485bec73f3c773bea3b7",
+        "html_url": "https://github.com/driftyco/ionic/commit/71cb2023dc9381dd85ff485bec73f3c773bea3b7"
+      },
+      {
+        "sha": "ce3aa18018a7f6eb4d271cf75d94fd0a1d986215",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/ce3aa18018a7f6eb4d271cf75d94fd0a1d986215",
+        "html_url": "https://github.com/driftyco/ionic/commit/ce3aa18018a7f6eb4d271cf75d94fd0a1d986215"
+      }
+    ]
+  },
+  {
+    "sha": "71cb2023dc9381dd85ff485bec73f3c773bea3b7",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-15T15:40:58Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-15T15:40:58Z"
+      },
+      "message": "fix(popover): extend options to modal service\n\nCloses #2724",
+      "tree": {
+        "sha": "1fd52a5f4a53b89075caecae50f1bfb19ae91c85",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/1fd52a5f4a53b89075caecae50f1bfb19ae91c85"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/71cb2023dc9381dd85ff485bec73f3c773bea3b7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/71cb2023dc9381dd85ff485bec73f3c773bea3b7",
+    "html_url": "https://github.com/driftyco/ionic/commit/71cb2023dc9381dd85ff485bec73f3c773bea3b7",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/71cb2023dc9381dd85ff485bec73f3c773bea3b7/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "69c733a7cb0580de151c7f932bc9617cc1d61ebc",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/69c733a7cb0580de151c7f932bc9617cc1d61ebc",
+        "html_url": "https://github.com/driftyco/ionic/commit/69c733a7cb0580de151c7f932bc9617cc1d61ebc"
+      }
+    ]
+  },
+  {
+    "sha": "ce3aa18018a7f6eb4d271cf75d94fd0a1d986215",
+    "commit": {
+      "author": {
+        "name": "Johann Pardanaud",
+        "email": "pardanaud.j@gmail.com",
+        "date": "2014-12-13T19:32:38Z"
+      },
+      "committer": {
+        "name": "Johann Pardanaud",
+        "email": "pardanaud.j@gmail.com",
+        "date": "2014-12-13T19:32:38Z"
+      },
+      "message": "Increase the value of TAP_RELEASE_TOLERANCE constant\n\nImproves tap behaviours on iPad by reducing “missclicks”",
+      "tree": {
+        "sha": "00e491c4231dbb22da80d73d18b28588a58e9624",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/00e491c4231dbb22da80d73d18b28588a58e9624"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/ce3aa18018a7f6eb4d271cf75d94fd0a1d986215",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/ce3aa18018a7f6eb4d271cf75d94fd0a1d986215",
+    "html_url": "https://github.com/driftyco/ionic/commit/ce3aa18018a7f6eb4d271cf75d94fd0a1d986215",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/ce3aa18018a7f6eb4d271cf75d94fd0a1d986215/comments",
+    "author": {
+      "login": "Nesk",
+      "id": 817508,
+      "avatar_url": "https://avatars.githubusercontent.com/u/817508?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Nesk",
+      "html_url": "https://github.com/Nesk",
+      "followers_url": "https://api.github.com/users/Nesk/followers",
+      "following_url": "https://api.github.com/users/Nesk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Nesk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Nesk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Nesk/subscriptions",
+      "organizations_url": "https://api.github.com/users/Nesk/orgs",
+      "repos_url": "https://api.github.com/users/Nesk/repos",
+      "events_url": "https://api.github.com/users/Nesk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Nesk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Nesk",
+      "id": 817508,
+      "avatar_url": "https://avatars.githubusercontent.com/u/817508?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Nesk",
+      "html_url": "https://github.com/Nesk",
+      "followers_url": "https://api.github.com/users/Nesk/followers",
+      "following_url": "https://api.github.com/users/Nesk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Nesk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Nesk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Nesk/subscriptions",
+      "organizations_url": "https://api.github.com/users/Nesk/orgs",
+      "repos_url": "https://api.github.com/users/Nesk/repos",
+      "events_url": "https://api.github.com/users/Nesk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Nesk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "69c733a7cb0580de151c7f932bc9617cc1d61ebc",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/69c733a7cb0580de151c7f932bc9617cc1d61ebc",
+        "html_url": "https://github.com/driftyco/ionic/commit/69c733a7cb0580de151c7f932bc9617cc1d61ebc"
+      }
+    ]
+  },
+  {
+    "sha": "69c733a7cb0580de151c7f932bc9617cc1d61ebc",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T04:25:17Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T04:25:17Z"
+      },
+      "message": "feat(actionsheet): cssClass option",
+      "tree": {
+        "sha": "e9672cd650c2760e4075601d2dd80cfdf89316cc",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/e9672cd650c2760e4075601d2dd80cfdf89316cc"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/69c733a7cb0580de151c7f932bc9617cc1d61ebc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/69c733a7cb0580de151c7f932bc9617cc1d61ebc",
+    "html_url": "https://github.com/driftyco/ionic/commit/69c733a7cb0580de151c7f932bc9617cc1d61ebc",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/69c733a7cb0580de151c7f932bc9617cc1d61ebc/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "916ff63d46e209e33812e566461ea88f02327b16",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/916ff63d46e209e33812e566461ea88f02327b16",
+        "html_url": "https://github.com/driftyco/ionic/commit/916ff63d46e209e33812e566461ea88f02327b16"
+      }
+    ]
+  },
+  {
+    "sha": "916ff63d46e209e33812e566461ea88f02327b16",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T04:12:04Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T04:12:04Z"
+      },
+      "message": "feat(popup): cssClass option",
+      "tree": {
+        "sha": "84d034391cf13fa365bde97d22d9946e03e24632",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/84d034391cf13fa365bde97d22d9946e03e24632"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/916ff63d46e209e33812e566461ea88f02327b16",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/916ff63d46e209e33812e566461ea88f02327b16",
+    "html_url": "https://github.com/driftyco/ionic/commit/916ff63d46e209e33812e566461ea88f02327b16",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/916ff63d46e209e33812e566461ea88f02327b16/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a096b0a19ce36a2abd9d1fc3ba7afb08871291e1",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/a096b0a19ce36a2abd9d1fc3ba7afb08871291e1",
+        "html_url": "https://github.com/driftyco/ionic/commit/a096b0a19ce36a2abd9d1fc3ba7afb08871291e1"
+      }
+    ]
+  },
+  {
+    "sha": "a096b0a19ce36a2abd9d1fc3ba7afb08871291e1",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T04:05:42Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T04:05:42Z"
+      },
+      "message": "Merge branch 'alextrs-master'",
+      "tree": {
+        "sha": "70e1ea712150ec13594c89bab5c5cf554b5faed4",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/70e1ea712150ec13594c89bab5c5cf554b5faed4"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/a096b0a19ce36a2abd9d1fc3ba7afb08871291e1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/a096b0a19ce36a2abd9d1fc3ba7afb08871291e1",
+    "html_url": "https://github.com/driftyco/ionic/commit/a096b0a19ce36a2abd9d1fc3ba7afb08871291e1",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/a096b0a19ce36a2abd9d1fc3ba7afb08871291e1/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "916b276ba336353bb9527a70e0adee363a5eee95",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/916b276ba336353bb9527a70e0adee363a5eee95",
+        "html_url": "https://github.com/driftyco/ionic/commit/916b276ba336353bb9527a70e0adee363a5eee95"
+      },
+      {
+        "sha": "c764c9e5fe781d1356c0c64b3ed3620a4f7c4361",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/c764c9e5fe781d1356c0c64b3ed3620a4f7c4361",
+        "html_url": "https://github.com/driftyco/ionic/commit/c764c9e5fe781d1356c0c64b3ed3620a4f7c4361"
+      }
+    ]
+  },
+  {
+    "sha": "c764c9e5fe781d1356c0c64b3ed3620a4f7c4361",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T04:05:16Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T04:05:16Z"
+      },
+      "message": "Merge branch 'master' of https://github.com/alextrs/ionic into alextrs-master",
+      "tree": {
+        "sha": "70e1ea712150ec13594c89bab5c5cf554b5faed4",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/70e1ea712150ec13594c89bab5c5cf554b5faed4"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/c764c9e5fe781d1356c0c64b3ed3620a4f7c4361",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/c764c9e5fe781d1356c0c64b3ed3620a4f7c4361",
+    "html_url": "https://github.com/driftyco/ionic/commit/c764c9e5fe781d1356c0c64b3ed3620a4f7c4361",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/c764c9e5fe781d1356c0c64b3ed3620a4f7c4361/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "916b276ba336353bb9527a70e0adee363a5eee95",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/916b276ba336353bb9527a70e0adee363a5eee95",
+        "html_url": "https://github.com/driftyco/ionic/commit/916b276ba336353bb9527a70e0adee363a5eee95"
+      },
+      {
+        "sha": "de118bc89fe335f83cfba79e2d0a9eea314a3fd8",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/de118bc89fe335f83cfba79e2d0a9eea314a3fd8",
+        "html_url": "https://github.com/driftyco/ionic/commit/de118bc89fe335f83cfba79e2d0a9eea314a3fd8"
+      }
+    ]
+  },
+  {
+    "sha": "916b276ba336353bb9527a70e0adee363a5eee95",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T04:01:36Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T04:01:36Z"
+      },
+      "message": "fix(popover): default values overwrites options",
+      "tree": {
+        "sha": "ecff097af9631b25f8c01c5c9513046623bc1805",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/ecff097af9631b25f8c01c5c9513046623bc1805"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/916b276ba336353bb9527a70e0adee363a5eee95",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/916b276ba336353bb9527a70e0adee363a5eee95",
+    "html_url": "https://github.com/driftyco/ionic/commit/916b276ba336353bb9527a70e0adee363a5eee95",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/916b276ba336353bb9527a70e0adee363a5eee95/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c22d87755bb8bd70cefde7403f68e7dda8dc725b",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/c22d87755bb8bd70cefde7403f68e7dda8dc725b",
+        "html_url": "https://github.com/driftyco/ionic/commit/c22d87755bb8bd70cefde7403f68e7dda8dc725b"
+      }
+    ]
+  },
+  {
+    "sha": "c22d87755bb8bd70cefde7403f68e7dda8dc725b",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T03:42:05Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T03:42:05Z"
+      },
+      "message": "Merge branch 'zz911-master'",
+      "tree": {
+        "sha": "a0294914c4002a8765abb4c2fa2dea6a409dc9ae",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/a0294914c4002a8765abb4c2fa2dea6a409dc9ae"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/c22d87755bb8bd70cefde7403f68e7dda8dc725b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/c22d87755bb8bd70cefde7403f68e7dda8dc725b",
+    "html_url": "https://github.com/driftyco/ionic/commit/c22d87755bb8bd70cefde7403f68e7dda8dc725b",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/c22d87755bb8bd70cefde7403f68e7dda8dc725b/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "80d67fbee37d5a0f18302789df2a8988fa991707",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/80d67fbee37d5a0f18302789df2a8988fa991707",
+        "html_url": "https://github.com/driftyco/ionic/commit/80d67fbee37d5a0f18302789df2a8988fa991707"
+      },
+      {
+        "sha": "896ae66b34f0b4ac7c0262be3b2098f06617dbcf",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/896ae66b34f0b4ac7c0262be3b2098f06617dbcf",
+        "html_url": "https://github.com/driftyco/ionic/commit/896ae66b34f0b4ac7c0262be3b2098f06617dbcf"
+      }
+    ]
+  },
+  {
+    "sha": "896ae66b34f0b4ac7c0262be3b2098f06617dbcf",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T03:40:11Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T03:40:11Z"
+      },
+      "message": "Merge branch 'master' of https://github.com/zz911/ionic into zz911-master",
+      "tree": {
+        "sha": "a0294914c4002a8765abb4c2fa2dea6a409dc9ae",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/a0294914c4002a8765abb4c2fa2dea6a409dc9ae"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/896ae66b34f0b4ac7c0262be3b2098f06617dbcf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/896ae66b34f0b4ac7c0262be3b2098f06617dbcf",
+    "html_url": "https://github.com/driftyco/ionic/commit/896ae66b34f0b4ac7c0262be3b2098f06617dbcf",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/896ae66b34f0b4ac7c0262be3b2098f06617dbcf/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "80d67fbee37d5a0f18302789df2a8988fa991707",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/80d67fbee37d5a0f18302789df2a8988fa991707",
+        "html_url": "https://github.com/driftyco/ionic/commit/80d67fbee37d5a0f18302789df2a8988fa991707"
+      },
+      {
+        "sha": "52578f07382fc94fa938e4ceeaa819edfc8e6f8e",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/52578f07382fc94fa938e4ceeaa819edfc8e6f8e",
+        "html_url": "https://github.com/driftyco/ionic/commit/52578f07382fc94fa938e4ceeaa819edfc8e6f8e"
+      }
+    ]
+  },
+  {
+    "sha": "80d67fbee37d5a0f18302789df2a8988fa991707",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T02:51:00Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T02:51:00Z"
+      },
+      "message": "chore(): update-angular.sh",
+      "tree": {
+        "sha": "f09a2754de65cb5d97805f721f842b5dcfedddec",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/f09a2754de65cb5d97805f721f842b5dcfedddec"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/80d67fbee37d5a0f18302789df2a8988fa991707",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/80d67fbee37d5a0f18302789df2a8988fa991707",
+    "html_url": "https://github.com/driftyco/ionic/commit/80d67fbee37d5a0f18302789df2a8988fa991707",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/80d67fbee37d5a0f18302789df2a8988fa991707/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3baa66c3139c30854dc12a82ba51236fef6229b4",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/3baa66c3139c30854dc12a82ba51236fef6229b4",
+        "html_url": "https://github.com/driftyco/ionic/commit/3baa66c3139c30854dc12a82ba51236fef6229b4"
+      }
+    ]
+  },
+  {
+    "sha": "3baa66c3139c30854dc12a82ba51236fef6229b4",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T02:33:02Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-13T02:33:02Z"
+      },
+      "message": "refactor(delegateService): expose ionic.DelegateService\n\nThis change makes the DelegateService available on the ionic namespace.\nIt is useful so external directives can follow the delegate pattern set\nby the framework itself.",
+      "tree": {
+        "sha": "779a63dc30bfca17fdd5a85d1340da677727360c",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/779a63dc30bfca17fdd5a85d1340da677727360c"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/3baa66c3139c30854dc12a82ba51236fef6229b4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/3baa66c3139c30854dc12a82ba51236fef6229b4",
+    "html_url": "https://github.com/driftyco/ionic/commit/3baa66c3139c30854dc12a82ba51236fef6229b4",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/3baa66c3139c30854dc12a82ba51236fef6229b4/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d6bff56445ca23f244f2d1374bf275ac23ff8799",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/d6bff56445ca23f244f2d1374bf275ac23ff8799",
+        "html_url": "https://github.com/driftyco/ionic/commit/d6bff56445ca23f244f2d1374bf275ac23ff8799"
+      }
+    ]
+  },
+  {
+    "sha": "d6bff56445ca23f244f2d1374bf275ac23ff8799",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-12T22:27:40Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-12T22:27:41Z"
+      },
+      "message": "feat($ionicView.unloaded): emit when view unloaded",
+      "tree": {
+        "sha": "89d199254c2c3c8e3165c9bd234338fb02aff055",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/89d199254c2c3c8e3165c9bd234338fb02aff055"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/d6bff56445ca23f244f2d1374bf275ac23ff8799",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/d6bff56445ca23f244f2d1374bf275ac23ff8799",
+    "html_url": "https://github.com/driftyco/ionic/commit/d6bff56445ca23f244f2d1374bf275ac23ff8799",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/d6bff56445ca23f244f2d1374bf275ac23ff8799/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6eb7eb192c8478ea763cd2d15d3b5f7141f04b59",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/6eb7eb192c8478ea763cd2d15d3b5f7141f04b59",
+        "html_url": "https://github.com/driftyco/ionic/commit/6eb7eb192c8478ea763cd2d15d3b5f7141f04b59"
+      }
+    ]
+  },
+  {
+    "sha": "6eb7eb192c8478ea763cd2d15d3b5f7141f04b59",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adamdbradley@users.noreply.github.com",
+        "date": "2014-12-12T21:27:36Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adamdbradley@users.noreply.github.com",
+        "date": "2014-12-12T21:27:36Z"
+      },
+      "message": "Merge pull request #2390 from wesleycho/perf-infinite-scroll\n\nperf(infiniteScroll): Use isolate scope",
+      "tree": {
+        "sha": "18a2226ec8c0ef3e51742e01c0be4b1f4e682a25",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/18a2226ec8c0ef3e51742e01c0be4b1f4e682a25"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/6eb7eb192c8478ea763cd2d15d3b5f7141f04b59",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/6eb7eb192c8478ea763cd2d15d3b5f7141f04b59",
+    "html_url": "https://github.com/driftyco/ionic/commit/6eb7eb192c8478ea763cd2d15d3b5f7141f04b59",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/6eb7eb192c8478ea763cd2d15d3b5f7141f04b59/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9f437a8c2bb168be4452ec99c40e9b3aefbad11a",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/9f437a8c2bb168be4452ec99c40e9b3aefbad11a",
+        "html_url": "https://github.com/driftyco/ionic/commit/9f437a8c2bb168be4452ec99c40e9b3aefbad11a"
+      },
+      {
+        "sha": "c241f69d00ac118c915f3eafe1c9af031ae1be57",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/c241f69d00ac118c915f3eafe1c9af031ae1be57",
+        "html_url": "https://github.com/driftyco/ionic/commit/c241f69d00ac118c915f3eafe1c9af031ae1be57"
+      }
+    ]
+  },
+  {
+    "sha": "9f437a8c2bb168be4452ec99c40e9b3aefbad11a",
+    "commit": {
+      "author": {
+        "name": "Max Lynch",
+        "email": "max@drifty.com",
+        "date": "2014-12-12T21:11:18Z"
+      },
+      "committer": {
+        "name": "Max Lynch",
+        "email": "max@drifty.com",
+        "date": "2014-12-12T21:11:28Z"
+      },
+      "message": "fix(scroll): ion-scroll swallows scroll events by default. Fixes #2695",
+      "tree": {
+        "sha": "b01f64cbd1868f3765c7202a9a5e5090124d700c",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/b01f64cbd1868f3765c7202a9a5e5090124d700c"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/9f437a8c2bb168be4452ec99c40e9b3aefbad11a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/9f437a8c2bb168be4452ec99c40e9b3aefbad11a",
+    "html_url": "https://github.com/driftyco/ionic/commit/9f437a8c2bb168be4452ec99c40e9b3aefbad11a",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/9f437a8c2bb168be4452ec99c40e9b3aefbad11a/comments",
+    "author": {
+      "login": "mlynch",
+      "id": 11214,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11214?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mlynch",
+      "html_url": "https://github.com/mlynch",
+      "followers_url": "https://api.github.com/users/mlynch/followers",
+      "following_url": "https://api.github.com/users/mlynch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mlynch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mlynch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mlynch/subscriptions",
+      "organizations_url": "https://api.github.com/users/mlynch/orgs",
+      "repos_url": "https://api.github.com/users/mlynch/repos",
+      "events_url": "https://api.github.com/users/mlynch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mlynch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mlynch",
+      "id": 11214,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11214?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mlynch",
+      "html_url": "https://github.com/mlynch",
+      "followers_url": "https://api.github.com/users/mlynch/followers",
+      "following_url": "https://api.github.com/users/mlynch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mlynch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mlynch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mlynch/subscriptions",
+      "organizations_url": "https://api.github.com/users/mlynch/orgs",
+      "repos_url": "https://api.github.com/users/mlynch/repos",
+      "events_url": "https://api.github.com/users/mlynch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mlynch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f63b8c1a8eefdf3ee098f118dab1f2b47b7f1e95",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/f63b8c1a8eefdf3ee098f118dab1f2b47b7f1e95",
+        "html_url": "https://github.com/driftyco/ionic/commit/f63b8c1a8eefdf3ee098f118dab1f2b47b7f1e95"
+      }
+    ]
+  },
+  {
+    "sha": "f63b8c1a8eefdf3ee098f118dab1f2b47b7f1e95",
+    "commit": {
+      "author": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-12T19:17:10Z"
+      },
+      "committer": {
+        "name": "Adam Bradley",
+        "email": "adambradley25@gmail.com",
+        "date": "2014-12-12T19:17:10Z"
+      },
+      "message": "chore(bower): angular-ui-router 0.2.13",
+      "tree": {
+        "sha": "b7ef6bc979686b2e527b766fbb51e3e82eda8a5f",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/b7ef6bc979686b2e527b766fbb51e3e82eda8a5f"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/f63b8c1a8eefdf3ee098f118dab1f2b47b7f1e95",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/f63b8c1a8eefdf3ee098f118dab1f2b47b7f1e95",
+    "html_url": "https://github.com/driftyco/ionic/commit/f63b8c1a8eefdf3ee098f118dab1f2b47b7f1e95",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/f63b8c1a8eefdf3ee098f118dab1f2b47b7f1e95/comments",
+    "author": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "adamdbradley",
+      "id": 452425,
+      "avatar_url": "https://avatars.githubusercontent.com/u/452425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamdbradley",
+      "html_url": "https://github.com/adamdbradley",
+      "followers_url": "https://api.github.com/users/adamdbradley/followers",
+      "following_url": "https://api.github.com/users/adamdbradley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamdbradley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamdbradley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamdbradley/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamdbradley/orgs",
+      "repos_url": "https://api.github.com/users/adamdbradley/repos",
+      "events_url": "https://api.github.com/users/adamdbradley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamdbradley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "161bf811cd2867dbcaf5a77beb4f2c42da7c5334",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/161bf811cd2867dbcaf5a77beb4f2c42da7c5334",
+        "html_url": "https://github.com/driftyco/ionic/commit/161bf811cd2867dbcaf5a77beb4f2c42da7c5334"
+      }
+    ]
+  },
+  {
+    "sha": "161bf811cd2867dbcaf5a77beb4f2c42da7c5334",
+    "commit": {
+      "author": {
+        "name": "Perry Govier",
+        "email": "govierp@gmail.com",
+        "date": "2014-12-12T17:41:26Z"
+      },
+      "committer": {
+        "name": "Perry Govier",
+        "email": "govierp@gmail.com",
+        "date": "2014-12-12T17:41:26Z"
+      },
+      "message": "test(header): has-tabs-top test accounts for footer",
+      "tree": {
+        "sha": "721278dde8af92786ab1a6f09b6921c0ac5138ad",
+        "url": "https://api.github.com/repos/driftyco/ionic/git/trees/721278dde8af92786ab1a6f09b6921c0ac5138ad"
+      },
+      "url": "https://api.github.com/repos/driftyco/ionic/git/commits/161bf811cd2867dbcaf5a77beb4f2c42da7c5334",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/driftyco/ionic/commits/161bf811cd2867dbcaf5a77beb4f2c42da7c5334",
+    "html_url": "https://github.com/driftyco/ionic/commit/161bf811cd2867dbcaf5a77beb4f2c42da7c5334",
+    "comments_url": "https://api.github.com/repos/driftyco/ionic/commits/161bf811cd2867dbcaf5a77beb4f2c42da7c5334/comments",
+    "author": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "perrygovier",
+      "id": 571056,
+      "avatar_url": "https://avatars.githubusercontent.com/u/571056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrygovier",
+      "html_url": "https://github.com/perrygovier",
+      "followers_url": "https://api.github.com/users/perrygovier/followers",
+      "following_url": "https://api.github.com/users/perrygovier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrygovier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrygovier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrygovier/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrygovier/orgs",
+      "repos_url": "https://api.github.com/users/perrygovier/repos",
+      "events_url": "https://api.github.com/users/perrygovier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrygovier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b6e2fbad88db0753633d868f77a776ffa1a93d5b",
+        "url": "https://api.github.com/repos/driftyco/ionic/commits/b6e2fbad88db0753633d868f77a776ffa1a93d5b",
+        "html_url": "https://github.com/driftyco/ionic/commit/b6e2fbad88db0753633d868f77a776ffa1a93d5b"
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+    <head>
+        <?= $this->headTitle() ?>
+        <?= $this->headMeta() ?>
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="expires" content="0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="shortcut icon" href="<?php echo STATIC_URL ?>favicon.ico" />
+        <!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+        <link rel="stylesheet" href="<?php echo STATIC_URL ?>css/jqueryMobile/font-awesome.min.css" />
+        <!-- jQueryMobileCSS - original without styling -->
+        <link rel="stylesheet" href="<?php echo STATIC_URL ?>css/jqueryMobile/jquery.mobile-1.4.2.min.css" />
+        <!-- nativeDroid core CSS -->
+        <link rel="stylesheet" href="<?php echo STATIC_URL ?>css/jqueryMobile/jquerymobile.nativedroid.css" />
+        <!-- nativeDroid: Light/Dark -->
+        <link rel="stylesheet" href="<?php echo STATIC_URL ?>css/jqueryMobile/jquerymobile.nativedroid.light.css"  id='jQMnDTheme' />
+        <!-- nativeDroid: Color Schemes -->
+        <link rel="stylesheet" href="<?php echo STATIC_URL ?>css/jqueryMobile/jquerymobile.nativedroid.color.blue.css" id='jQMnDColor' />
+        <!-- jQuery / jQueryMobile Scripts -->
+        <script type="text/javascript" src="<?php echo STATIC_URL ?>js/jqueryMobile/nativedroid.script.js"></script>
+        <script src="<?php echo STATIC_URL ?>js/jqueryMobile/jquery-1.9.1.min.js"></script>
+        <script src="<?php echo STATIC_URL ?>js/jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+
+    </head>
+    <body onload="openDialog();">
+        <div data-role="page" data-theme='b'>
+            <!--<div id='map-canvas'></div>-->
+            <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+                <?php if ($this->controller !== 'index') { ?>
+                    <a href="#" data-rel='back' data-ajax="false"><i style="color: white"class='fa fa-arrow-left fa-1x'></i></a>
+                    <h1  style="text-align: center"><a href="/pe/dedicatorias" ><image src="<?php echo STATIC_URL ?>css/jqueryMobile/entel.png"  /></a></h1>
+                <?php } else { ?>
+                    <h1  style="text-align: center"><a href="/pe/dedicatorias" ><image src="<?php echo STATIC_URL ?>css/jqueryMobile/logo-entel.png"  /></a></h1>
+                <?php } ?>
+            </div>
+            <?= $this->layout()->content ?>
+            <br><br><br>
+            <!--            <div  data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'style="width: 100%;
+                    height: 30px;
+                    position: absolute;
+                    bottom: 0;">
+                            <div data-role="navbar">
+                                <ul>
+                                   <li><a href="http://m.entretenimiento.entel.pe/">Entretenimiento</a></li>
+                                    <li><a href="/pe/dedicatorias/legal">Legal</a></li>
+                                </ul>
+                            </div>
+                        </div>-->
+
+            <div data-role="footer" style="width: 100%;background-color: #0154A0;padding-top: 5px;
+                 color :white;
+                 height: 30px;
+                 position: absolute;
+                 bottom: 0;">
+                <table style="width: 100%"  >
+                    <tr>
+                        <td colspan="3"><image style="width:24px" src="<?php echo STATIC_URL ?>css/jqueryMobile/entel.png"  />&nbsp;&nbsp;Lorem ipsum dolor</td>
+                        <td>
+                            <!--<a href="#"><image src="<?php echo STATIC_URL ?>css/jqueryMobile/socialMedia/btFacebook.jpg"  /></a>-->
+                            <a href="https://m.facebook.com/EntelPeru"><i style="color: white"class='fa  fa-facebook-square fa-1x'></i></a>
+                        </td><td>
+                            <!--<a href="#"><image src="<?php echo STATIC_URL ?>css/jqueryMobile/socialMedia/btTwitter.jpg"  /></a>-->
+                           <a href="https://mobile.twitter.com/EntelPeru"><i style="color: white"class='fa fa-twitter-square fa-1x'></i></a>
+                        </td>
+                        <td><a href="https://www.youtube.com/user/PeruEntel"><i style="color: white"class='fa fa-youtube-square fa-1x'></i></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

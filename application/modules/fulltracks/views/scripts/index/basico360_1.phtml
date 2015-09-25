@@ -1,0 +1,110 @@
+<div id="prueba_master" class="wlp-bighorn-book">
+    <div class="wlp-bighorn-book-content">
+        <div class="wlp-bighorn-layout wlp-bighorn-layout-flow">
+            <div class="wlp-bighorn-layout-cell wlp-bighorn-layout-flow-horizontal wlp-bighorn-layout-flow-first" style="width: 100%">
+                <?php $this->getMesseger(); ?>
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artist">
+                            <?php
+                            $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/fulltracks/basico360/musica/' . $this->SoapMusica[0]->catalogo . '.jpg';
+                            if (file_exists($nombre_fichero)) {
+                                ?>
+                                <img class="img-icono"
+                                     src="<?php echo DINAMIC_URL ?>fulltracks/basico360/musica/<?= $this->SoapMusica[0]->catalogo ?>.jpg" ><?php } else {
+                                ?>
+                                <img src="<?php echo DINAMIC_URL ?>fulltracks/basico360/musica/default.png" width="64" height="47" border="0" />
+
+                            <?php }
+                            ?>
+                        </td>
+                        <td class="artistaDestacado" colspan=2>
+                            <div class="artistaDestacadoDetalle">
+                                <span><?= strtoupper($this->SoapMusica[0]->tema) ?></span>
+                                <form action="/pe/fulltracks/confirmar-descarga"  method="post" Enctype="multipart/form-data">
+                                    <input type="hidden" name="catalogo" value="<?= $this->SoapMusica[0]->catalogo ?>">
+                                    <input type="hidden" name="artista" value="<?= $this->SoapMusica[0]->artista ?>">
+                                    <input type="hidden" name="tema" value="<?= $this->SoapMusica[0]->tema ?>">
+                                    <br>
+                                    <p><button style="border:none;background-color: transparent !important; color:   #0073ae;font-size: 4vw;
+                                               margin-top:0;text-decoration:none;" type="submit"><?= $this->SoapMusica[0]->artista ?>
+                                        </button></p>
+                                </form>  
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="artist" colspan=3 >
+                            <div class="artist-text">
+
+                                <div class="title-img">
+                                    <a class="text-title" style="color: black;font-size:12px"
+                                       href="">Bienvenido desde hoy podrás descargar toda la música que puedas. Costo: S/1.65 diario. Para cancelar envía un SMS con la palabra SALIR al 4556 
+                                    </a>
+                                    <?php $this->getMesseger(); ?>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <!----------------TONOS------------------------------------->
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artist"  colspan=2 style="background-color: orange">
+                            <div class="artist-text">
+                                <div class="title-img">
+                                    <a class="text-title" style="color: white;font-size:18px"
+                                       href="#">TOP 10
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="menuPrincipal clearfix">
+                    <?php
+                    $i = 0;
+                    foreach ($this->SoapMusica as $item):
+                        $i++;
+                        if ($i > 1 && $i <= 11) {
+                            ?>
+                            <div id="medium">
+                                <span class="puesto"><p><?= $i - 1 ?></p></span>
+                                <div class="menu" >
+
+                                    <?php
+                                    $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/fulltracks/basico360/musica/' . $item->catalogo . '.jpg';
+                                    if (file_exists($nombre_fichero)) {
+                                        ?>
+                                        <img src="<?php echo DINAMIC_URL ?>fulltracks/basico360/musica/<?= $item->catalogo ?>.jpg"  height="47" border="0" />
+                                    <?php } else {
+                                        ?>
+                                        <img src="<?php echo DINAMIC_URL ?>fulltracks/basico360/musica/default.png" width="64" height="47" border="0" />
+
+                                    <?php }
+                                    ?> 
+                                    <p><?= strtoupper($item->tema) ?></p>
+                                    <form action="/pe/fulltracks/confirmar-descarga"  method="post" Enctype="multipart/form-data">
+                                        <input type="hidden" name="catalogo" value="<?= $item->catalogo ?>">
+                                        <input type="hidden" name="artista" value="<?= $item->artista ?>">
+                                        <input type="hidden" name="tema" value="<?= $item->tema ?>">
+                                        <br>
+                                        <span><button style="border:none;background-color: transparent !important;color: orange;font-size:16px" type="submit"><?= $item->artista ?>
+                                            </button></span>
+                                    </form>
+                                </div>
+                            </div>
+                            <?php
+                        }
+                    endforeach;
+                    ?> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,57 @@
+<div data-role="content">
+
+
+    <?php
+    $nombre_fichero = APPLICATION_PATH . '/../public/dinamic/dedicatorias/basico360/400X400/' . $this->catalogo . '.jpg';
+    if (file_exists($nombre_fichero)) {
+        ?>
+        <img width="100%" height="50%" 
+             src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/400X400/<?= $this->catalogo ?>.jpg" ><?php } else {
+        ?>
+        <img width="100%" height="50%" src="<?php echo DINAMIC_URL ?>dedicatorias/basico360/400X400/default.jpeg" border="0" />
+
+    <?php }
+    ?>
+    <div class='inset'>
+        <ul data-role="listview" data-inset="false" data-icon="false" data-divider-theme="b">
+            <li style="color:black;background-color: white;">
+                <h2><?= strtoupper($this->tema) ?></h2>
+                <p><?= $this->artista ?></p>
+                <p class="ui-li-aside"><strong style="color: #FF6702;" ><?= $this->precio ?></strong></p>
+            </li>
+        </ul>
+    </div>
+    <p class="mensajeDescripcion" style="font-weight: 400;">
+        <strong style="font-weight:500;font-size: 0.9em;color:#FF6702">[</strong>&nbsp;&nbsp; Esta seguro que desea la dedicatoria?_</p>
+    <!----------------TONOS------------------------------------->
+    <?php if ($this->perfil == 1) {
+        ?>
+        <td class="artist" style="background-color: orange" >
+            <div class="artist-text">
+                <div class="title-img">
+                    <a class="text-title" style="background-color: orange;color: white;font-size:18px"
+                       href="/pe/realtones/confirmar-descarga?catalog=<?php echo $this->catalogo; ?>&descargar=true">ACEPTAR
+                    </a>
+                </div>
+            </div>
+        </td>
+    <?php } else { ?>
+        <form data-ajax="false" action="<?php echo $this->action; ?>"  method="get" Enctype="multipart/form-data">
+            <ul data-role="listview" data-inset="true">
+                <input type="hidden" name="catalogo" value="<?php echo $this->catalogo; ?>">
+                <input type="hidden" name="descargar" value="true">
+
+                <li>
+                     <!--<button type="submit" style="background-color: #FF6702;color:white" ><i class='lIcon fa fa-check'></i>Aceptar</button>-->
+
+                    <button type="submit" style="color:white" >[&nbsp;&nbsp;Aceptar_</button>
+                    <div id="moopio">
+                             <!--<a href='#' data-rel='back' style="background-color: #FF6702;color:white" data-role='button' ><i class='lIcon fa fa-times'></i>Cancelar</a>-->
+                        <a href='#' data-rel='back' style="color:white" data-role='button' >[&nbsp;&nbsp;Cancelar_</a>
+                    </div>
+                </li>
+            </ul>
+
+        </form>
+    <?php } ?>
+</div>

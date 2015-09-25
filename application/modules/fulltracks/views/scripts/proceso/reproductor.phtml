@@ -1,0 +1,68 @@
+<div id="prueba_master" class="wlp-bighorn-book">
+    <div class="wlp-bighorn-book-content">
+        <div class="wlp-bighorn-layout wlp-bighorn-layout-flow">
+            <div class="wlp-bighorn-layout-cell wlp-bighorn-layout-flow-horizontal wlp-bighorn-layout-flow-first" style="width: 100%">
+
+                <!----------------TONOS------------------------------------->
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artist"  colspan=2 >
+                            <div class="artist-text">
+                                <div class="title-img">
+                                    <a class="text-title" 
+                                    <?php if ($this->perfil == 1) {
+                                        ?> style="color: black;font-size:10px" <?php } else { ?> style="font-size:18px" <?php } ?>
+                                       href="#">Haz click en el botón DESCARGAR.
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <?php if ($this->perfil == 1) {
+                            ?>
+                            <td class="artist" style="background-color: orange" >
+                                <div class="artist-text">
+                                    <div class="title-img">
+                                        <a class="text-title" style="background-color: orange;color: white;font-size:18px"
+                                           href="/pe/fulltracks/descarga?codigoControl=<?php echo $this->codigoControl; ?>&codigo=<?php echo $this->codigo; ?>">DESCARGAR
+                                        </a>
+                                    </div>
+                                </div>
+                            </td>
+                        <?php } else { ?>
+                            <td class="artist"  colspan=2 style="background-color: orange">
+                                <form action="<?php echo $this->action; ?>"  method="post" Enctype="multipart/form-data">
+                                    <input type="hidden" name="codigo" value="<?php echo $this->codigo; ?>">
+                                    <input type="hidden" name="codigoControl" value="<?php echo $this->codigoControl; ?>">
+                                    <input type="hidden" name="descargar" value="true">
+                                    <div class="artist-text">
+                                        <div class="title-img">
+                                            <button style="border:none;background-color: orange;color: white;font-size:18px" type="submit">DESCARGAR
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </td>
+                        <?php } ?>
+                    </tr>
+                </table>
+                <br>
+
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artist"   style="background-color: orange;" >
+                            <div class="artist-text">
+                                <div class="title-img">
+                                    <a class="text-title" style="font-weight:bold;color: black;font-size:18px;color: white;"
+                                       href="/pe/fulltracks">REGRESAR AL HOME
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,87 @@
+<div id="prueba_master" class="wlp-bighorn-book">
+    <div class="wlp-bighorn-book-content">
+        <div class="wlp-bighorn-layout wlp-bighorn-layout-flow">
+            <div class="wlp-bighorn-layout-cell wlp-bighorn-layout-flow-horizontal wlp-bighorn-layout-flow-first" style="width: 100%">
+                <!----------------BANNER DE DEDICATORIA------------------------------------->
+
+               
+                <br>
+                <?php $this->getMesseger(); ?>
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artistaDestacado" colspan=2>
+                            <div class="artistaDestacadoDetalle">
+                                <a href="/pe/dedicatorias/confirmar-dedicatoria?catalogo=<?= $this->SoapMusica[0]->catalogo ?>"><span><?= strtoupper($this->SoapMusica[0]->tema) ?></span><p style="color: blue"><?= $this->SoapMusica[0]->artista ?></p></a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="artistaDestacado" colspan=2>
+                            <div class="artistaDestacadoDetalle">
+                                <a href="/pe/dedicatorias/confirmar-dedicatoria?catalogo=<?= $this->SoapMusica[1]->catalogo ?>"><span><?= strtoupper($this->SoapMusica[1]->tema) ?></span><p style="color: blue"><?= $this->SoapMusica[1]->artista ?></p></a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="artistaDestacado" colspan=2>
+                            <div class="artistaDestacadoDetalle">
+                                <a href="/pe/dedicatorias/confirmar-dedicatoria?catalogo=<?= $this->SoapMusica[2]->catalogo ?>"><span><?= strtoupper($this->SoapMusica[2]->tema) ?></span><p style="color: blue"><?= $this->SoapMusica[2]->artista ?></p></a>
+                            </div>
+                        </td>
+                    </tr>
+<!--                    <tr>
+                        <td class="artist" colspan=3 >
+                            <div class="artist-text">
+                                <div class="title-img">
+                                    <a class="text-title" style="font-size:10px"
+                                       href="">Descarga los mejores TONOS en tu celular y personaliza tus llamadas. Costo semanal: S/.4.90  Incluye 1 TONO
+                                        . Costo adicional por más descargas dentro de la semana: s/.2.50 .
+                                        Para Cancelar envía SALIR al 4556 .
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>-->
+                </table>
+                <br>
+                <!----------------TONOS------------------------------------->
+
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artist"  colspan=2 style="background-color: orange">
+                            <div class="artist-text">
+                                <div class="title-img">
+                                    <a class="text-title" style="color: white;font-size:18px"
+                                       href="#">TONOS
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <?php
+                    $i = 0;
+                    foreach ($this->SoapTonos as $item):
+                        $i++;
+                        if ($i > 1 && $i <= 11) {
+                            ?>
+                            <tr>
+                                <td class="artist" >
+                                    <div class="artist-text" style="text-align:left;">
+                                        <div class="title-img">
+                                            <a class="text-title"
+                                               href="/pe/realtones/confirmar-descarga?catalogo=<?= $item->catalogo ?>"><?= strtoupper($item->tema) ?>
+                                            </a>
+                                        </div>
+                                    </div> 
+
+                                </td>
+                            </tr>
+                            <?php
+                        }
+                    endforeach;
+                    ?> 
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
